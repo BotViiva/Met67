@@ -5,10 +5,12 @@ import Tapahtumalista from "./Tapahtumalista.js";
 class Tapahtumat extends Component {
   render() {
     return <div className="Tapahtumat">
-      <header className="Eka">
-        <img src="./logo.png" alt="Teollisuusliiton logo" />
-        <h1>Hihöö numba uno</h1>
-      </header>
+      <div>
+        <header className="Otsikko">
+          <img id="logo" src="./logo.png" alt="Teollisuusliiton logo" />
+          <h1>Metalli 67</h1>
+        </header>
+      </div>
       <div className="Tapahtumalista"><Tapahtumalista /></div>
     </div>;
 
