@@ -8,6 +8,8 @@ const TapahtumanLisäys = (kokous) => {
         </tr>
         <tr>
             <td>{kokous.date}</td>
+        </tr>
+        <tr>
             <td>{kokous.location}</td>
         </tr>
     </React.Fragment>

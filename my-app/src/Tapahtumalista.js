@@ -4,7 +4,6 @@ import TapahtumanLisäys from "./Tapahtumanlisäys"
 
 class Tapahtumalista extends Component {
     render() {
-        console.log(Tapahtumat)
         return <table className="Tapahtumapöytä">
             <tbody>
                 <tr>
