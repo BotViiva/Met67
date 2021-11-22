@@ -8,10 +8,6 @@
   align-items: center;
 }
 
-#logo {
-  margin-left: 0px;
-}
-
 .Tapahtumat {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   text-align: center;

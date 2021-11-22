@@ -1,18 +1,17 @@
 import React from "react"
 
-
-const TapahtumanLisäys = (kokous) => {
-    return <React.Fragment>
+const TapahtumanLisäys = (kokous, index) => {
+    return <>
         <tr>
-            <th>{kokous.topic}</th>
+            <th key={index}>{kokous.topic}</th>
         </tr>
         <tr>
-            <td>{kokous.date}</td>
+            <td key={index}>{kokous.date}</td>
         </tr>
         <tr>
-            <td>{kokous.location}</td>
+            <td key={index}>{kokous.location}</td>
         </tr>
-    </React.Fragment>
+    </>
 }
 
 export default TapahtumanLisäys

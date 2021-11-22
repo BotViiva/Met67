@@ -9,11 +9,11 @@ class Tapahtumalista extends Component {
                 <tr>
                     <th>KOKOUKSET</th>
                 </tr>
-                {Tapahtumat.kokoukset.map(kokous => TapahtumanLisäys(kokous))}
+                {Tapahtumat.kokoukset.map((kokous, index) => TapahtumanLisäys(kokous, index))}
                 <tr>
                     <th>TAPAHTUMAT</th>
                 </tr>
-                {Tapahtumat.virkistys.map(kokous => TapahtumanLisäys(kokous))}
+                {Tapahtumat.virkistys.map((kokous, index) => TapahtumanLisäys(kokous, index))}
             </tbody>
         </table>
     }
