@@ -7,7 +7,7 @@ class Mökki extends Component {
     return <div className="Mökki">
 
       <h1>Osaston Mökki</h1>
-      <img src={MökkiKuva} id="Kuva"></img>
+      <img src={MökkiKuva} id="Kuva" alt="Kuva mökistä"></img>
       <div class="mokkidiv">
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 108</p>
         <p>Varaukset: Veikko Kiema</p>
