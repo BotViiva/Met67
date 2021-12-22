@@ -1,0 +1,21 @@
+{
+    "kokoukset": [{
+        "topic": "Hallituksen kokous",
+        "date": "10.12.2021 klo 19:00",
+        "location": "Osaston toimisto"
+    }, {
+        "topic": "Kevätkokous",
+        "date": "4.4.2022 klo 19:00",
+        "location": "Osaston toimisto"
+    }],
+    "virkistys": [{
+        "topic": "Kylpyläreissu",
+        "date": "1.2.2022",
+        "info": "Jaakko Niininen"
+    }, {
+        "topic": "Pesäpallopäivä",
+        "date": "6.6.2022",
+        "info": "Jaakko Niininen"
+    }]
+
+}

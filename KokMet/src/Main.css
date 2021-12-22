@@ -1,0 +1,68 @@
+.Otsikko {
+  background-color: brown;
+  margin-top: 0;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.Tapahtumat {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+.Tapahtumalista {
+  background-color: lawngreen;
+}
+
+.Tapahtumapöytä {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+
+.Mökki {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hallitus {
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Eka {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Toinen {
+  background-color: blue;
+}
+
+.Kolmas {
+  background-color: green;
+}
+
+footer {
+  background-color: red;
+  min-height: 20vh;
+}
