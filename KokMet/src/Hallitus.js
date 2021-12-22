@@ -131,6 +131,13 @@ class Hallitus extends Component {
             </section>
         </div>
     </div>
+    <p className="Keskitetty">Ammattiosaston toiminnan tarkoitus on jäsenistön yhteistyön avulla parantaa ja puolustaa työ- ja palkkaehtoja, taloudellisia sosiaalisia etuja, sekä toimia palkansaajien yhteiskunnallisen aseman, oikeudenmukaisuuden ja tasa-arvon edistamiseksi. Ammattiosasto on Teollisuusliitto ry :n jäsen</p>
+    <p className="Keskitetty">Näiden perustehtävien lisäksi osasto pyrkii lisäämään jäsenistönsö yhteenkuuluvuutta ja solidaarisuutta järjestämällä yhteisiä tapahtumia, joihin ovat tervetulleita myös perheenjäsenet.</p>
+    <footer>
+      <p className="Keskitetty">Kokkolan Metallityöväen Ammattiosasto ry.67</p>
+      <p className="Keskitetty">Perustettu 10.6.1917</p>
+      <p className="Allekirjoitus">© 2021 Jaakko Niininen</p>
+    </footer>
     </div>;
   }
 }

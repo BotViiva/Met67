@@ -112,6 +112,14 @@
 }
 
 footer {
-  background-color: red;
-  min-height: 20vh;
+  color: black;
+  background-color: brown;
+  margin-bottom: 0;
+  min-width: 100vw;
+  min-height: 10vh;
+}
+
+.Allekirjoitus {
+  text-align: left;
+  margin-left: 20px;
 }
