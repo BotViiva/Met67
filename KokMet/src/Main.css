@@ -70,20 +70,45 @@
   font-size: calc(10px + 2vmin);
 }
 
-.Eka {
-  margin-top: 0;
+.Jäsenkirje {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.Jäsenkirje h2 {
+  text-align: center;
+}
+
+.Keskitetty {
+  text-align: center;
+}
+
+.Omavastuu {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20vh;
+}
+
+.Henkilöt {
+  background: white;
+  color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+  align-items: center;
+  padding: 0rem;
+  flex-wrap: wrap
 }
 
-.Toinen {
-  background-color: blue;
+.Henkilöt p {
+  padding: 4px;
 }
 
-.Kolmas {
-  background-color: green;
+.Bold {
+  font-weight: bold;
+  color: black;
 }
 
 footer {
