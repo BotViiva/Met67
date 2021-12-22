@@ -2,33 +2,53 @@
   background-color: brown;
   margin-top: 0;
   min-width: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: row;
   text-align: center;
   align-items: center;
 }
 
+.Tervetuloa {
+  min-height: 40vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .Tapahtumat {
+  min-height: 50vh;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   text-align: center;
   min-height: 100vh;
-
+  color: white;
 }
 
-.Tapahtumalista {
-  background-color: lawngreen;
+.Tapahtumat h2 {
+  font-size: 3vw;
 }
 
-.Tapahtumapöytä {
+.Tapahtumat p {
+  font-size: 2vw;
+}
+
+.Container {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  background-color: white;
+  flex-wrap: wrap;
 }
 
+.Item {
+  flex-grow: 2;
+  flex-shrink: 2;
+  min-width: 400px;
+}
 
 .Mökki {
+  background-image: url(./mokki.jpg);
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
