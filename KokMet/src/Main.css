@@ -17,19 +17,10 @@
 
 .Tapahtumat {
   min-height: 50vh;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   text-align: center;
   min-height: 100vh;
-  color: white;
 }
 
-.Tapahtumat h2 {
-  font-size: 3vw;
-}
-
-.Tapahtumat p {
-  font-size: 2vw;
-}
 
 .Container {
   margin-left: auto;
@@ -46,18 +37,31 @@
   min-width: 400px;
 }
 
+
 .Mökki {
-  background-image: url(./mokki.jpg);
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+
+}
+
+#Kuva {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.mokkidiv {
+  max-width: 70%;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: black;
 }
 
 .Hallitus {
-  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
