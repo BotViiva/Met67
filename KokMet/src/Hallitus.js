@@ -36,12 +36,6 @@ class Hallitus extends Component {
                 <div className="Henkilöt">
                     <section>
                         <h2>Puheenjohtaja</h2>
-                        <p>Vesa-Matti Räisälä</p>
-                        <p>050 4668635</p>
-                        <p>vesa-matti.raisala@outlook.com</p>
-                    </section>
-                    <section>
-                        <h2>Varapuheenjohtaja</h2>
                         <p>Tomi Junkkila</p>
                         <p>045 6746720</p>
                         <p>tjunkkila@gmail.com</p>
@@ -83,7 +77,7 @@ class Hallitus extends Component {
                         <p>jaakko.niininen@gmail.com</p>
                     </section>
                     <section>
-                        <h2>Varajäsen / Puheenjohtajan varahenkilö</h2>
+                        <h2>Puheenjohtajan varahenkilö</h2>
                         <p>Esko Viitasaari</p>
                         <p>0400 744511</p>
                         <p>viitasaariesko@gmail.com</p>
@@ -111,12 +105,6 @@ class Hallitus extends Component {
                         <p>Risto Koski</p>
                         <p>040 5826024</p>
                         <p>ristok.koski@luukku.com</p>
-                    </section>
-                    <section>
-                        <h2>Varajäsen</h2>
-                        <p>Eemi Vähäsöyrinki</p>
-                        <p>044 3330095</p>
-                        <p>vahasoyrinki.eemi@gmail.com</p>
                     </section>
                 </div>
             </div>
