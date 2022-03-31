@@ -25,15 +25,8 @@ class Hallitus extends Component {
                 sekä palkintoja niin monelle kun riittää.
         </p>
                 <h2>LASKETTELUREISSU VUOKATTIIN LA 26.3.2022</h2>
-                <p className="Keskitetty">Lähtö Kokkolan ABC:lta klo 6:00, ja Kälviän Best-Hallin pihalta klo 6:30. KORONAPASSIT MUKAAN! Omavastuu
-                jäseniltä 30€, ja avecilta 50€. Hintaan kuuluu kyyti,
-                hissilippu sekä ruokalippu. Mukaan mahtuu 50 nopeiten ilmoittautunutta. Mikäli reissuun lähtee alle 30
-                henkilöä,
-                reissua ei järjestetä.
-
-            <p className="Bold">Ilmoittautuminen alkaa 20.2.2022 klo 16:00 ja loppuu 6.3.
-                Ilmoittautumiset Eemi Vähäsöyringille numeroon 044 3330095 tekstiviestillä tai WhatsAppilla.</p>
-                </p>
+                <p className="Keskitetty">PERUTTU
+        </p>
                 <h2>KESÄTEATTERI HEINÄ/ELOKUUSSA</h2>
                 <p className="Keskitetty">Tarkemmat tiedot lähempänä.</p>
                 <h2>PESÄPALLOPÄIVÄ LA 3.9.</h2>
