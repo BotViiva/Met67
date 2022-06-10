@@ -1,0 +1,125 @@
+.Otsikko {
+  background-color: brown;
+  margin-top: 0;
+  min-width: 100vh;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.Tervetuloa {
+  min-height: 40vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Tapahtumat {
+  min-height: 50vh;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+.Container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Item {
+  flex-grow: 2;
+  flex-shrink: 2;
+  min-width: 400px;
+}
+
+
+.Mökki {
+  text-align: center;
+
+}
+
+#Kuva {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.mokkidiv {
+  max-width: 70%;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: black;
+}
+
+.Hallitus {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Jäsenkirje {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.Jäsenkirje h2 {
+  text-align: center;
+}
+
+.Keskitetty {
+  text-align: center;
+}
+
+.Omavastuu {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20vh;
+}
+
+.Henkilöt {
+  background: white;
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+  flex-wrap: wrap
+}
+
+.Henkilöt p {
+  padding: 4px;
+}
+
+.Bold {
+  font-weight: bold;
+  color: black;
+}
+
+footer {
+  color: black;
+  background-color: brown;
+  margin-bottom: 0;
+  min-width: 100vw;
+  min-height: 10vh;
+}
+
+.Allekirjoitus {
+  text-align: left;
+  margin-left: 20px;
+}
