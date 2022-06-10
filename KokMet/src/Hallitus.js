@@ -27,8 +27,8 @@ class Hallitus extends Component {
                 <h2>LASKETTELUREISSU VUOKATTIIN LA 26.3.2022</h2>
                 <p className="Keskitetty">PERUTTU
         </p>
-                <h2>KESÄTEATTERI HEINÄ/ELOKUUSSA</h2>
-                <p className="Keskitetty">Tarkemmat tiedot lähempänä.</p>
+                <h2>KESÄTEATTERI RAUHANLAHDESSA LA 13.8.</h2>
+                <p className="Keskitetty">Kulttuuria Kuopiossa! Tarkemmat tiedot lähempänä</p>
                 <h2>PESÄPALLOPÄIVÄ LA 3.9.</h2>
                 <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
@@ -39,6 +39,12 @@ class Hallitus extends Component {
                         <p>Tomi Junkkila</p>
                         <p>045 6746720</p>
                         <p>tjunkkila@gmail.com</p>
+                    </section>
+                    <section>
+                        <h2>Varapuheenjohtaja</h2>
+                        <p>Esko Viitasaari</p>
+                        <p>0400 744511</p>
+                        <p>viitasaariesko@gmail.com</p>
                     </section>
                     <section>
                         <h2>Sihteeri</h2>
@@ -60,12 +66,6 @@ class Hallitus extends Component {
                     </section>
                     <section>
                         <h2>Jäsen</h2>
-                        <p>Seppo Niemi</p>
-                        <p>040 7543587</p>
-                        <p>sepponiemi45@gmail.com</p>
-                    </section>
-                    <section>
-                        <h2>Jäsen</h2>
                         <p>Veli-Matti Kuoppala</p>
                         <p>0400 664317</p>
                         <p>veli-matti.kuoppala@anvianet.fi</p>
@@ -77,13 +77,7 @@ class Hallitus extends Component {
                         <p>jaakko.niininen@gmail.com</p>
                     </section>
                     <section>
-                        <h2>Puheenjohtajan varahenkilö</h2>
-                        <p>Esko Viitasaari</p>
-                        <p>0400 744511</p>
-                        <p>viitasaariesko@gmail.com</p>
-                    </section>
-                    <section>
-                        <h2>Varajäsen</h2>
+                        <h2>Jäsen</h2>
                         <p>Juha Witick</p>
                         <p>050 5864238</p>
                         <p>juhawitick@hotmail.com</p>
