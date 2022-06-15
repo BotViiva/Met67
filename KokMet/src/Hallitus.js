@@ -28,7 +28,7 @@ class Hallitus extends Component {
                 <p className="Keskitetty">PERUTTU
         </p>
                 <h2>KESÄTEATTERI RAUHANLAHDESSA LA 13.8.</h2>
-                <p className="Keskitetty">Kulttuuria Kuopiossa! Tarkemmat tiedot lähempänä</p>
+                <img src="Teatteri.jpg" alt="Kuva ei toimi" width="auto" height="auto" > </img>
                 <h2>PESÄPALLOPÄIVÄ LA 3.9.</h2>
                 <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
