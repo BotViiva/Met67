@@ -1,5 +1,6 @@
 import './Main.css';
 import { Component } from "react";
+import Teatteri from "./KESÄTEATTERIA KUOPIOSSA.docx"
 
 class Hallitus extends Component {
     render() {
