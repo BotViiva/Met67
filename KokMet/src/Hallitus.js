@@ -16,19 +16,9 @@ class Hallitus extends Component {
             Toivomme mahdollisimman monen jäsenen osallistuvan perheineen tuleviin tapahtumiin.
         </p>
                 <h2>Suunnitteilla olevat tapahtumat:</h2>
-                <h2>KOKO PERHEEN KYLPYLÄREISSU SANIFANIIN LA 29.1.2022</h2>
-                <p className="Keskitetty">PERUTTU
-        </p>
-                <h2>KOKO PERHEEN PILKKIKISAT LA 12.3.2022</h2>
-                <p>Perinteeksi muodostuneet pilkkikisat järjestetään taas osaston mökillä klo 12:00 alkaen. Ilmoittautuminen
-                paikan päällä 11:30 alkaen. Tarjolla makkaraa, kahvia
-                sekä palkintoja niin monelle kun riittää.
-        </p>
-                <h2>LASKETTELUREISSU VUOKATTIIN LA 26.3.2022</h2>
-                <p className="Keskitetty">PERUTTU
-        </p>
+
                 <h2>KESÄTEATTERI RAUHANLAHDESSA LA 13.8.</h2>
-                <a href="KESÄTEATTERIA KUOPIOSSA.docx" download>Tämä on linkki</a>
+                <p className="Keskitetty"> Omavastuu: jäsen 50€ avec 80€. Sisältää matkat (Dahlin bussilla), majoituksen, päivällisen hotellin ravintolassa ja pääsyliput teatteriin (Rock’n Rollators: Tomi Wahlström – Ismo Apell.). Tarkemmat tiedot <a id="linkki" href="KESÄTEATTERIA KUOPIOSSA.docx" download>täältä!</a></p>
                 <h2>PESÄPALLOPÄIVÄ LA 3.9.</h2>
                 <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
