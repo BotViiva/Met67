@@ -33,7 +33,7 @@ class Tapahtumat extends Component {
       <div className="Container">
         <section className="Item">
           <h2>SEURAAVAT TAPAHTUMAT</h2>
-          <p>KESÄTEATTERI RAUHANLAHDESSA 13.-14.8.</p>
+          <a href="KESÄTEATTERIA KUOPIOSSA.docx" download>KESÄTEATTERI RAUHANLAHDESSA 13.-14.8.</a>
         </section>
         <section className="Item">
           <h2>SEURAAVA KOKOUS</h2>
