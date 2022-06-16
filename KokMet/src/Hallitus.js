@@ -19,7 +19,7 @@ class Hallitus extends Component {
                 <h2>Suunnitteilla olevat tapahtumat:</h2>
 
                 <h2>KESÄTEATTERI RAUHANLAHDESSA LA 13.8.</h2>
-                <p className="Keskitetty"> Omavastuu: jäsen 50€ avec 80€. Sisältää matkat (Dahlin bussilla), majoituksen, päivällisen hotellin ravintolassa ja pääsyliput teatteriin (Rock’n Rollators: Tomi Wahlström – Ismo Apell.). Tarkemmat tiedot <a id="linkki" href="KESÄTEATTERIA KUOPIOSSA.docx" download>täältä!</a></p>
+                <p className="Keskitetty"> Omavastuu: jäsen 50€ avec 80€. Sisältää matkat (Dahlin bussilla), majoituksen, päivällisen hotellin ravintolassa ja pääsyliput teatteriin (Rock’n Rollators: Tomi Wahlström – Ismo Apell.). Tarkemmat tiedot <a id="linkki" src={Teatteri} href="KESÄTEATTERIA KUOPIOSSA.docx" download>täältä!</a></p>
                 <h2>PESÄPALLOPÄIVÄ LA 3.9.</h2>
                 <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
