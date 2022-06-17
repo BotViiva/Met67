@@ -1,7 +1,7 @@
 import './Main.css';
 import { Component } from "react";
 import Logo from "./logo.png";
-import Teatteri from "./KESÄTEATTERIA KUOPIOSSA.docx"
+import './Hallitus.js'
 
 class Tapahtumat extends Component {
   render() {
@@ -34,7 +34,8 @@ class Tapahtumat extends Component {
       <div className="Container">
         <section className="Item">
           <h2>SEURAAVAT TAPAHTUMAT</h2>
-          <a src={Teatteri} href="KESÄTEATTERIA RAUHANLAHDESSA.docx" download>KESÄTEATTERI RAUHANLAHDESSA 13.-14.8.</a>
+          <p>KESÄTEATTERI RAUHANLAHDESSA 13.-14.8.</p>
+          <p>\/ Tiedot alla \/</p>
         </section>
         <section className="Item">
           <h2>SEURAAVA KOKOUS</h2>
