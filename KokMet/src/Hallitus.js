@@ -1,13 +1,12 @@
 import './Main.css';
 import { Component } from "react";
-import Teatteri from "./KESÄTEATTERIA KUOPIOSSA.docx"
 
 class Hallitus extends Component {
     render() {
         return <div className="Hallitus">
             <div className="Jäsenkirje">
                 <h2>JÄSENKIRJE 2022</h2>
-                <p>Vuonna 2021 tapahtumia ei voitu järjestää koronarajotuksien vuoksi, mutta rokottekattavuuden lisääntyessä
+                <p>Vuonna 2021 tapahtumia ei voitu järjestää koronarajotuksien vuoksi, mutta rokotekattavuuden lisääntyessä
                 ja rajoituksien keventyessä, vuodelle 2022 on suunnitteilla useita eri tapahtumia. Näihin tapahtumiin
                 osallistuvien
                 oletetaan ottavan huomioon paikalliset koronarajoitukset (koronapassi) sekä noudattavan hyviä hygieniatapoja
@@ -18,8 +17,11 @@ class Hallitus extends Component {
         </p>
                 <h2>Suunnitteilla olevat tapahtumat:</h2>
 
-                <h2>KESÄTEATTERI RAUHANLAHDESSA LA 13.8.</h2>
-                <p className="Keskitetty"> Omavastuu: jäsen 50€ avec 80€. Sisältää matkat (Dahlin bussilla), majoituksen, päivällisen hotellin ravintolassa ja pääsyliput teatteriin (Rock’n Rollators: Tomi Wahlström – Ismo Apell.). Tarkemmat tiedot ja ilmoittautuminen Esko Viitasaari 0400 744511</p>
+                <h2 id="teatteri">KESÄTEATTERI RAUHANLAHDESSA LA 13.8.</h2>
+                <p className="Keskitetty"> Omavastuu: jäsen 50€ avec 80€. Sisältää matkat (Dahlin bussilla),
+                majoituksen hotellissa (kahden hengen huone), päivällisen hotellin ravintolassa ja pääsyliput teatteriin (Rock’n Rollators: Tomi Wahlström – Ismo Apell.).</p>
+                <p>Ilmoittautuminen: tekstiviestillä Esko Viitasaari 0400 744511 alkaen 14.6., viimeistään 14.7.</p>
+                <p>Maksu: Kokkolan metallityöväen ao.67 FI51 1065 3007 1012 35 viesti: Kuopio ja jäsenen nimi. Maksu viimeistään 6.8.!</p>
                 <h2>PESÄPALLOPÄIVÄ LA 3.9.</h2>
                 <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
