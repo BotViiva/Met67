@@ -114,7 +114,7 @@ footer {
   color: black;
   background-color: brown;
   margin-bottom: 0;
-  min-width: 100vw;
+  width: 100vw;
   min-height: 10vh;
 }
 

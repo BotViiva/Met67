@@ -10,7 +10,6 @@ import { Component } from "react";
 class Mökki extends Component {
   render() {
     return <div className="Mökki">
-
       <h1>Osaston Mökki</h1>
       <img src={MökkiKuva} id="Kuva" alt="Kuva mökistä"></img>
       <img src={Keittiö1} id="Kuva" alt="Kuva mökistä"></img>
@@ -30,6 +29,11 @@ class Mökki extends Component {
         <p>Osaston tilinumero: FI51 1065 3007 101235</p>
         <p>Avainten palautus 15:00 ja nouto klo 18:00</p>
       </div>
+      <footer>
+        <p className="Keskitetty">Kokkolan Metallityöväen Ammattiosasto ry.67</p>
+        <p className="Keskitetty">Perustettu 10.6.1917</p>
+        <p className="Allekirjoitus">© 2021 Jaakko Niininen</p>
+      </footer>
     </div>;
   }
 }
