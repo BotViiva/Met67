@@ -1,5 +1,10 @@
 import './Main.css';
-import MökkiKuva from './mokki.jpg'
+import MökkiKuva from './uusimokki.jpg'
+import Keittiö1 from './uusikeittio1.jpg'
+import Keittiö2 from './uusikeittio2.jpg'
+import Piha from './uusipiha.jpg'
+import Sänky from './uusisanky.jpg'
+import Sauna from './uusisauna.jpg'
 import { Component } from "react";
 
 class Mökki extends Component {
@@ -8,6 +13,11 @@ class Mökki extends Component {
 
       <h1>Osaston Mökki</h1>
       <img src={MökkiKuva} id="Kuva" alt="Kuva mökistä"></img>
+      <img src={Keittiö1} id="Kuva" alt="Kuva mökistä"></img>
+      <img src={Keittiö2} id="Kuva" alt="Kuva mökistä"></img>
+      <img src={Piha} id="Kuva" alt="Kuva mökistä"></img>
+      <img src={Sänky} id="Kuva" alt="Kuva mökistä"></img>
+      <img src={Sauna} id="Kuva" alt="Kuva mökistä"></img>
       <div class="mokkidiv">
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 108</p>
         <p>Varaukset: Veikko Kiema</p>
