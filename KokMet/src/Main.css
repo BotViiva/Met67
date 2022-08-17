@@ -43,7 +43,7 @@
 }
 
 #Kuva {
-  width: 50%;
+  max-width: 51%;
   height: auto;
   border-radius: 5px;
 }
