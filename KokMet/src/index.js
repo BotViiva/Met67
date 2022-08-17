@@ -8,8 +8,8 @@ import Hallitus from './Hallitus';
 ReactDOM.render(
   <React.StrictMode>
     <Tapahtumat />
-    <Mökki />
     <Hallitus />
+    <Mökki />
   </React.StrictMode>,
   document.getElementById('root')
 );
