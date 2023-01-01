@@ -5,24 +5,32 @@ class Hallitus extends Component {
     render() {
         return <div className="Hallitus">
             <div className="Jäsenkirje">
-                <h2>JÄSENKIRJE 2022</h2>
-                <p>Vuonna 2021 tapahtumia ei voitu järjestää koronarajotuksien vuoksi, mutta rokotekattavuuden lisääntyessä
-                ja rajoituksien keventyessä, vuodelle 2022 on suunnitteilla useita eri tapahtumia. Näihin tapahtumiin
-                osallistuvien
-                oletetaan ottavan huomioon paikalliset koronarajoitukset (koronapassi) sekä noudattavan hyviä hygieniatapoja
-            (maskit, käsien pesu). <p className="Bold">HUOM! Jos koronatilanne pahenee, voimme joutua perumaan
-                tapahtumia.</p>
-
-            Toivomme mahdollisimman monen jäsenen osallistuvan perheineen tuleviin tapahtumiin.
-        </p>
                 <h2>Suunnitteilla olevat tapahtumat:</h2>
 
-                <h2 id="teatteri">KESÄTEATTERI RAUHANLAHDESSA LA 13.8.</h2>
-                <p className="Keskitetty"> Omavastuu: jäsen 50€ avec 80€. Sisältää matkat (Dahlin bussilla),
-                majoituksen hotellissa (kahden hengen huone), päivällisen hotellin ravintolassa ja pääsyliput teatteriin (Rock’n Rollators: Tomi Wahlström – Ismo Apell.).</p>
-                <p>Ilmoittautuminen: tekstiviestillä Esko Viitasaari 0400 744511 alkaen 14.6., viimeistään 14.7.</p>
-                <p>Maksu: Kokkolan metallityöväen ao.67 FI51 1065 3007 1012 35 viesti: Kuopio ja jäsenen nimi. Maksu viimeistään 6.8.!</p>
-                <h2>PESÄPALLOPÄIVÄ LA 3.9.</h2>
+                <h2 id="teatteri">TEATTERI/JÄÄKIEKKOREISSU VAASAAN 18.2.</h2>
+                <p className="Keskitetty"> Vaasan kaupunginteatteri la.18.2 klo19.</p>
+                <p className="Keskitetty">Vierailuesitys: Kaikki äitini, kaikki tyttäreni</p>
+                <p className="Keskitetty">Yli 100 000 katsojaa kerännyt, yleisön rakastama, Kaikki äitini, kaikki tyttäreni palaa ohjelmistoon kevätkaudella 2023. Samalla vietetään esityksen 10-v juhlavuotta. Se on lämmin ja hauska mutta myös viiltävän pirullinen esitys äitien ja tyttärien välisistä suhteista. </p>
+                <p className="Keskitetty">Näyttämöllä: Miitta (siskonpeti) Sorvali, Pirjo (Pirjo) Heikkilä ja Sanna Stellan.</p>
+                <p className="Keskitetty">Esityksen kesto 2,5 tuntia, sis. väliajan.</p>
+                <p className="Keskitetty">Vaasan Sähkö Areena la.18.2 klo17</p>
+                <p className="Keskitetty">SPORT – KALPA</p>
+                <p className="Keskitetty">Aikataulu:</p>
+                <p className="Keskitetty">Best-Hall Kälviä klo 11.00</p>
+                <p className="Keskitetty">ABC Heinolankaari klo 11.30</p>
+                <p className="Keskitetty">Tesses Cafe Vassorinlahti lounas klo 13.00</p>
+                <p className="Keskitetty">Sokos Hotel Vaakuna noin klo 15</p>
+                <p className="Keskitetty">Bussi jäähallille lähtee noin klo 16. Teatterille kävellään (noin 5min)</p>
+                <p className="Keskitetty">Sunnuntaina 19.2 paluumatkalle lähdetään noin klo11</p>
+                <p className="Keskitetty">Matkalle ovat tervetulleita osaston jäsenet puolisoineen.
+                Paikat (50) täytetään varausjärjestyksessä.
+                Omavastuu: Jäsen 50€ avec 80€, maksettava 15.2 2023 mennessä. Kokkolan metallityöväen ao.67:n tilille FI51 1065 3007 1012 35.
+                Viesti: Vaasa 18.2 ja jäsenen nimi. Omavastuu sisältää matkat Dahlin bussilla, hotellimajoituksen, lounaan menomatkalla ja pääsyliput.
+                Ilmoittautuminen: Esko Viitasaarelle tekstiviestillä 0400 744511.
+                Ilmoittautuminen alkaa ti 3.1 ja päättyy ma.16.1</p>
+                <h2>PILKKIKISAT MAALISKUUSSA</h2>
+                <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
+                <h2>KYLPYLÄMATKA KEVÄÄLLÄ</h2>
                 <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
                 <h2>Hallitus ja toimihenkilöt vuodelle 2022</h2>
