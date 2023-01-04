@@ -78,7 +78,7 @@ class Hallitus extends Component {
                         <p>jaakko.niininen@gmail.com</p>
                     </section>
                     <section>
-                        <h2>Jäsen</h2>
+                        <h2>Varajäsen</h2>
                         <p>Juha Witick</p>
                         <p>050 5864238</p>
                         <p>juhawitick@hotmail.com</p>
@@ -91,15 +91,15 @@ class Hallitus extends Component {
                     </section>
                     <section>
                         <h2>Varajäsen</h2>
-                        <p>Ossi Rentola</p>
-                        <p>050 4033009</p>
-                        <p>ossi.rentola@netikka.fi</p>
+                        <p>Jarno Hakkio</p>
+                        <p>050 3368995</p>
+                        <p>jarno.hakkio@hotmail.com</p>
                     </section>
                     <section>
                         <h2>Varajäsen</h2>
-                        <p>Risto Koski</p>
-                        <p>040 5826024</p>
-                        <p>ristok.koski@luukku.com</p>
+                        <p>Ville Saukko</p>
+                        <p>050 3421214</p>
+                        <p>saukonville@gmail.com</p>
                     </section>
                 </div>
             </div>
