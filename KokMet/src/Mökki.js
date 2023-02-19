@@ -19,10 +19,9 @@ class Mökki extends Component {
       <img src={Sauna} id="Kuva" alt="Kuva mökistä"></img>
       <div class="mokkidiv">
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 108</p>
-        <p>Varaukset: Veikko Kiema</p>
+        <p>Varaukset soittamalla/txt</p>
         <p>Yht. Tied.</p>
-        <p>veikko.kiema@gmail.com</p>
-        <p>0400 274862</p>
+        <p>0400 274862 Veikko Kiema</p>
         <p>Avainmaksu osaston jäsenille</p>
         <p>su - to 30€, to - su 30€</p>
         <p>Syyskuun ensimmäinen viikko su - su 30€</p>
