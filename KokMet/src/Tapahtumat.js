@@ -35,6 +35,7 @@ class Tapahtumat extends Component {
         <section className="Item">
           <h2>SEURAAVAT TAPAHTUMAT</h2>
           <p>Pilkkikilpailut 18.3. osaston mökillä</p>
+          <p>Lisätiedot alla \/</p>
         </section>
         <section className="Item">
           <h2>SEURAAVA KOKOUS</h2>
