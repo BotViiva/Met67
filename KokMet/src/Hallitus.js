@@ -28,12 +28,12 @@ class Hallitus extends Component {
                 Viesti: Vaasa 18.2 ja jäsenen nimi. Omavastuu sisältää matkat Dahlin bussilla, hotellimajoituksen, lounaan menomatkalla ja pääsyliput.
                 Ilmoittautuminen: Esko Viitasaarelle tekstiviestillä 0400 744511.
                 Ilmoittautuminen alkaa ti 3.1 ja päättyy ma.16.1</p>
-                <h2>PILKKIKISAT MAALISKUUSSA</h2>
-                <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
+                <h2>PILKKIKISAT 18.3.2023</h2>
+                <p className="Keskitetty"> Honkaluodossa osaston mökillä 18.3.2023 klo 12:00–14:00. Osoite on Jopintie 108. Ilmoittautuminen kilpailuun klo 11:00–12:00 paikan päällä. Jäsenille ja perheenjäsenille. Tervetuloa!</p>
                 <h2>KYLPYLÄMATKA KEVÄÄLLÄ</h2>
                 <p className="Keskitetty"> Tarkemmat tiedot lähempänä</p>
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
-                <h2>Hallitus ja toimihenkilöt vuodelle 2022</h2>
+                <h2>Hallitus ja toimihenkilöt vuodelle 2023</h2>
                 <div className="Henkilöt">
                     <section>
                         <h2>Puheenjohtaja</h2>
