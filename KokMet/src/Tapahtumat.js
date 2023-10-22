@@ -38,8 +38,9 @@ class Tapahtumat extends Component {
         </section>
         <section className="Item">
           <h2>SEURAAVA KOKOUS</h2>
-          <p>Hallituksen kokous 9.10.2023 klo 19:00,</p>
-          <p>osaston toimistolla</p>
+          <p>Hallituksen kokous osaston toimistolla 6.11.2023 klo 18:00,</p>
+          <p>jonka jälkeen kaikille jäsenille avoin yleiskokous klo 19:00</p>
+          <p>jossa käsitellään ammattiosaston sääntömuutokset</p>
         </section>
       </div>
     </div>;
