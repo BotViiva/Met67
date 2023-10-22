@@ -23,9 +23,9 @@ class Hallitus extends Component {
                     </section>
                     <section>
                         <h2>Sihteeri</h2>
-                        <p>William Nyman</p>
-                        <p>040 3512990</p>
-                        <p>ville.nyman@hotmail.com</p>
+                        <p>Jaakko Niininen</p>
+                        <p>044 9763056</p>
+                        <p>jaakko.niininen@gmail.com</p>
                     </section>
                     <section>
                         <h2>Taloudenhoitaja</h2>
@@ -44,12 +44,6 @@ class Hallitus extends Component {
                         <p>Veli-Matti Kuoppala</p>
                         <p>0400 664317</p>
                         <p>veli-matti.kuoppala@anvianet.fi</p>
-                    </section>
-                    <section>
-                        <h2>IT-Vastaava</h2>
-                        <p>Jaakko Niininen</p>
-                        <p>044 9763056</p>
-                        <p>jaakko.niininen@gmail.com</p>
                     </section>
                     <section>
                         <h2>Varajäsen</h2>
