@@ -1,7 +1,6 @@
 .Otsikko {
   background-color: brown;
   margin-top: 0;
-  min-width: 100vh;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -43,7 +42,7 @@
 }
 
 #Kuva {
-  max-width: 51%;
+  max-width: 70%;
   height: auto;
   border-radius: 5px;
 }
@@ -128,7 +127,6 @@ footer {
   color: black;
   background-color: brown;
   margin-bottom: 0;
-  width: 100vw;
   min-height: 10vh;
 }
 
