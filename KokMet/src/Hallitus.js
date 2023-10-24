@@ -9,66 +9,66 @@ class Hallitus extends Component {
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
                 <h2>Hallitus ja toimihenkilöt vuodelle 2023</h2>
                 <div className="Henkilöt">
-                    <section className="HenkilötBox">
+                    <div className="HenkilötBox">
                         <h2>Puheenjohtaja</h2>
                         <p>Tomi Junkkila</p>
                         <p>045 6746720</p>
                         <p>tjunkkila@gmail.com</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Varapuheenjohtaja</h2>
                         <p>Esko Viitasaari</p>
                         <p>0400 744511</p>
                         <p>viitasaariesko@gmail.com</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Sihteeri</h2>
                         <p>Jaakko Niininen</p>
                         <p>044 9763056</p>
                         <p>jaakko.niininen@gmail.com</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Taloudenhoitaja</h2>
                         <p>Tuomo Hautala</p>
                         <p>040 5220471</p>
                         <p>tomme.hautala@gmail.com</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Huvilan isäntä</h2>
                         <p>Veikko Kiema</p>
                         <p>0400 274862</p>
                         <p>veikko.kiema@gmail.com</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Jäsen</h2>
                         <p>Veli-Matti Kuoppala</p>
                         <p>0400 664317</p>
                         <p>veli-matti.kuoppala@anvianet.fi</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Varajäsen</h2>
                         <p>Juha Witick</p>
                         <p>050 5864238</p>
                         <p>juhawitick@hotmail.com</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Varajäsen</h2>
                         <p>Greger Huldén</p>
                         <p>050 3393684</p>
                         <p>greger.hulden@anvianet.fi</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Varajäsen</h2>
                         <p>Jarno Hakkio</p>
                         <p>050 3368995</p>
                         <p>jarno.hakkio@hotmail.com</p>
-                    </section>
-                    <section className="HenkilötBox">
+                    </div>
+                    <div className="HenkilötBox">
                         <h2>Varajäsen</h2>
                         <p>Ville Saukko</p>
                         <p>050 3421214</p>
                         <p>saukonville@gmail.com</p>
-                    </section>
+                    </div>
                 </div>
             </div>
             <p>

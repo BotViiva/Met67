@@ -69,9 +69,7 @@
 }
 
 .HenkilötBox {
-  border-color: black;
-  border-width: 5px;
-  border-radius: 5px;
+  padding: 3%;
 }
 
 .Jäsenkirje {
@@ -107,9 +105,6 @@
   flex-wrap: wrap;
 }
 
-.Henkilöt p h2 {
-  padding: 10px;
-}
 
 .Toiminnankuvaus {
   font-weight: bold;
