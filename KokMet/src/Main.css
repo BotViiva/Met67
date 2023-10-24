@@ -69,6 +69,12 @@
   font-size: calc(10px + 2vmin);
 }
 
+.HenkilötBox {
+  border-color: black;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
 .Jäsenkirje {
   margin-left: 30px;
   margin-right: 30px;
@@ -78,6 +84,7 @@
 
 .Jäsenkirje h2 {
   text-align: center;
+  margin: 10px;
 }
 
 .Keskitetty {
@@ -95,14 +102,14 @@
   color: black;
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0rem;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
-.Henkilöt p {
-  padding: 4px;
+.Henkilöt p h2 {
+  padding: 10px;
 }
 
 .Toiminnankuvaus {
