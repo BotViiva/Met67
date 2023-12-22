@@ -34,7 +34,7 @@ class Tapahtumat extends Component {
       <div className="Container">
         <section className="Item">
           <h2>SEURAAVAT TAPAHTUMAT</h2>
-          <a href="/Kalajoki 2024.docx.pdf" download>
+          <a href="Kalajoki2024.pdf" download>
             <p>Kylpyläreissu Tropiclandiaan</p>
           </a>
           <p>lauantaina 20.1.2024</p>
