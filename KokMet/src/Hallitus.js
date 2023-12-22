@@ -11,7 +11,7 @@ class Hallitus extends Component {
                 <p>Kokkolan metallityöväen ao.67:n perinteinen koko
                 perheen kylpylämatka tehdään Tropiclandiaan
 Vaasaan.</p>
-                <a href="./Kalajoki2024.pdf" type="text/pdf" download>Lataa esite</a>
+                <a href="Vaasa2024.pdf" download="Vaasa2024.pdf">Lataa esite</a>
                 <h3>Jääkiekko/Teatterimatka Tampereelle 17.-18.2.2024</h3>
                 <p> Jääkiekko/teatterimatka Tampereelle Kokkolan matkatoimiston järjestämänä. Omavastuu 60 €/jäsen, 90 €/avec. Bussikuljetus, Tei-tuvalla ruokailu, teatteri tai jääkiekko, ja aamiainen kuuluu omavastuuseen. Lisätietoja sekä ilmoittautumiset lähempänä.</p>
                 <h3>Pilkkikilpailut osaston mökillä 9.3.2024</h3>
