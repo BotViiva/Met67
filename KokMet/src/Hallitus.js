@@ -8,7 +8,10 @@ class Hallitus extends Component {
                 <h2 className="Omavastuu"> Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon FI51 1065 3007 101235</h2>
                 <h2>Tulevat tapahtumat vuodelle 2024</h2>
                 <h3>Kylpyläreissu Tropiclandiaan 20.1.2024</h3>
-                <a href="./Kalajoki2024.pdf" download><p>Lataa esite</p></a>
+                <p>Kokkolan metallityöväen ao.67:n perinteinen koko
+                perheen kylpylämatka tehdään Tropiclandiaan
+Vaasaan.</p>
+                <a href="./Kalajoki2024.pdf" type="application/pdf" download>Lataa esite</a>
                 <h3>Jääkiekko/Teatterimatka Tampereelle 17.-18.2.2024</h3>
                 <p> Jääkiekko/teatterimatka Tampereelle Kokkolan matkatoimiston järjestämänä. Omavastuu 60 €/jäsen, 90 €/avec. Bussikuljetus, Tei-tuvalla ruokailu, teatteri tai jääkiekko, ja aamiainen kuuluu omavastuuseen. Lisätietoja sekä ilmoittautumiset lähempänä.</p>
                 <h3>Pilkkikilpailut osaston mökillä 9.3.2024</h3>
