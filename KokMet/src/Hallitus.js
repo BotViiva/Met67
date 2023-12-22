@@ -84,8 +84,8 @@ class Hallitus extends Component {
                     <div className="HenkilötBox">
                         <h2>Varajäsen</h2>
                         <p>Tero Tuoretmaa</p>
-                        <p></p>
-                        <p></p>
+                        <p>040 0788183</p>
+                        <p>pata88@gmail.com</p>
                     </div>
                 </div>
             </div>
