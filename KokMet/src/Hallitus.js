@@ -1,6 +1,7 @@
 import './Main.css';
 import { Component } from "react";
 import Esite from './Vaasa2024.pdf';
+import EsiteTre from './TAMPERE.pdf';
 
 class Hallitus extends Component {
     render() {
@@ -14,7 +15,8 @@ class Hallitus extends Component {
 Vaasaan.</p>
                 <a href={Esite} download>Lataa esite</a>
                 <h3>Jääkiekko/Teatterimatka Tampereelle 17.-18.2.2024</h3>
-                <p> Jääkiekko/teatterimatka Tampereelle Kokkolan matkatoimiston järjestämänä. Omavastuu 60 €/jäsen, 90 €/avec. Bussikuljetus, Tei-tuvalla ruokailu, teatteri tai jääkiekko, ja aamiainen kuuluu omavastuuseen. Lisätietoja sekä ilmoittautumiset lähempänä.</p>
+                <p> Jääkiekko/teatterimatka Tampereelle Kokkolan matkatoimiston järjestämänä. Omavastuu 60 €/jäsen, 90 €/avec. Bussikuljetus, Tei-tuvalla ruokailu, teatteri tai jääkiekko, ja aamiainen kuuluu omavastuuseen.</p>
+                <a href={EsiteTre} download>Lataa esite</a>
                 <h3>Pilkkikilpailut osaston mökillä 9.3.2024</h3>
                 <p>Ilmoittautuminen mökillä (Jopintie 108) klo 11:00-12:00, ja kalastus alkaa klo 12:00. Tarjolla makkaraa ja mahtavia palkintoja!</p>
                 <h2>Hallitus ja toimihenkilöt vuodelle 2024</h2>
