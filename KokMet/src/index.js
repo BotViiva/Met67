@@ -10,8 +10,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Tapahtumat />
     <Hallitus />
-    <Mökki />
     <Galleria />
+    <Mökki />
   </React.StrictMode>,
   document.getElementById('root')
 );

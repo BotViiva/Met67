@@ -11,7 +11,7 @@ class Galleria extends Component {
 
         return (
             <div className="Galleria">
-                <h1>Hihöö</h1>
+                <h1>Osaston Mökki</h1>
                 <ImageGallery items={images} />
             </div>
         )
