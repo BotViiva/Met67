@@ -1,10 +1,10 @@
 import './Main.css';
-import MökkiKuva from './uusimokki.jpg'
-import Keittiö1 from './uusikeittio1.jpg'
-import Keittiö2 from './uusikeittio2.jpg'
-import Piha from './uusipiha.jpg'
-import Sänky from './uusisanky.jpg'
-import Sauna from './uusisauna.jpg'
+import MökkiKuva from './Kuvat/uusimokki.jpg'
+import Keittiö1 from './Kuvat/uusikeittio1.jpg'
+import Keittiö2 from './Kuvat/uusikeittio2.jpg'
+import Piha from './Kuvat/uusipiha.jpg'
+import Sänky from './Kuvat/uusisanky.jpg'
+import Sauna from './Kuvat/uusisauna.jpg'
 import { Component } from "react";
 
 class Mökki extends Component {

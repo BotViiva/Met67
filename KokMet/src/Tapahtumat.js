@@ -1,6 +1,6 @@
 import './Main.css';
 import { Component } from "react";
-import Logo from "./logo.png";
+import Logo from "./Kuvat/logo.png";
 import './Hallitus.js'
 
 class Tapahtumat extends Component {
