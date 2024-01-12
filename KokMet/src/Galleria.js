@@ -11,8 +11,11 @@ class Galleria extends Component {
 
         return (
             <div className="Galleria">
-                <h1>Osaston Mökki</h1>
-                <ImageGallery items={images} />
+                <h1 className="Keskitetty">Osaston Mökki</h1>
+                <ImageGallery items={images}
+                    showPlayButton={false}
+                    showFullscreenButton={false}
+                />
             </div>
         )
     }
