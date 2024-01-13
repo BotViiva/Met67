@@ -4,7 +4,7 @@ import { Component } from "react";
 class Mökki extends Component {
   render() {
     return <div className="Mökki">
-      <div class="mokkidiv">
+      <div className="mokkidiv">
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 108</p>
         <p>Varaukset soittamalla/txt</p>
         <p>Yht. Tied.</p>
