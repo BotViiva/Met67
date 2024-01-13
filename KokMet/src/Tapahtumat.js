@@ -1,8 +1,6 @@
 import './Main.css';
 import { Component } from "react";
-import Logo from "./Kuvat/logo.png";
-import Esite from './Tiedostot/Vaasa2024.pdf';
-import EsiteTre from './Tiedostot/TAMPERE.pdf';
+import Logo from "./logo.png";
 import './Hallitus.js'
 
 class Tapahtumat extends Component {
@@ -36,8 +34,8 @@ class Tapahtumat extends Component {
       <div className="Container">
         <section className="Item">
           <h2>SEURAAVAT TAPAHTUMAT</h2>
-          <p>Kylpyläreissu <a href={Esite} download>Tropiclandiaan</a> 20.1.2024</p>
-          <p>Jääkiekko/Teatterireissu <a href={EsiteTre} download>Tampereelle</a> 17.-18.2.2024</p>
+          <p>Kylpyläreissu Tropiclandiaan</p>
+          <p>lauantaina 20.1.2024</p>
         </section>
         <section className="Item">
           <h2>SEURAAVA KOKOUS</h2>
