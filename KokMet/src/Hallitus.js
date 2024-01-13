@@ -1,7 +1,7 @@
 import './Main.css';
 import { Component } from "react";
-import Esite from './Tiedostot/Vaasa2024.pdf';
-import EsiteTre from './Tiedostot/TAMPERE.pdf';
+import Esite from './Vaasa2024.pdf';
+import EsiteTre from './TAMPERE.pdf';
 
 class Hallitus extends Component {
     render() {
