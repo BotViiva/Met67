@@ -22,7 +22,7 @@ class Hallitus extends Component {
           <p>
             {" "}
             Jääkiekko/teatterimatka Tampereelle Kokkolan matkatoimiston
-            järjestämänä. Omavastuu 60 €/jäsen, 90 €/avec. Bussikuljetus,
+            järjestämänä. Omavastuu 60€/jäsen, 90€/avec. Bussikuljetus,
             Tei-tuvalla ruokailu, teatteri tai jääkiekko, ja aamiainen kuuluu
             omavastuuseen.
           </p>
