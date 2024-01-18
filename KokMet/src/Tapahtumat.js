@@ -29,7 +29,6 @@ class Tapahtumat extends Component {
           <h2>
             Tervetuloa Kokkolan metallityöväen ammattiosasto 67:n sivuille!
           </h2>
-
           <p className="Toiminnankuvaus">
             Ammattiosaston toiminnan tarkoitus on jäsenistön yhteistyön avulla
             parantaa ja puolustaa työ- ja palkkaehtoja, taloudellisia
