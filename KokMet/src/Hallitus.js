@@ -37,7 +37,7 @@ class Hallitus extends Component {
           <h2 className="Omavastuu">
             {" "}
             Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon
-            FI51 1065 3007 101235
+            FI51 1065 3007 1012 35
           </h2>
           <h2>Hallitus ja toimihenkilöt vuodelle 2024</h2>
           <div className="Henkilöt">
