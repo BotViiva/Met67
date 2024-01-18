@@ -77,9 +77,9 @@ let jäsenet = [{
 
 class HallitusLista extends Component {
     render() {
-        const sorttaus = jäsenet.map((jäsen) =>
-            <div className="HenkilötBox" key={jäsen.id}>
-                <h2>{jäsen.titteli}</h2>
+        const sorttaus = jäsenet.map((jäsen, index) =>
+            <div className="HenkilötBox" key={index}>
+                <h2 >{jäsen.titteli}</h2>
                 <p >{jäsen.nimi}</p>
                 <p >{jäsen.puhelinnumero}</p>
                 <p >{jäsen.sähköposti}</p>
