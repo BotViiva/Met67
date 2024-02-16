@@ -51,24 +51,14 @@ class Tapahtumat extends Component {
           <section className="Item">
             <h2>SEURAAVAT TAPAHTUMAT</h2>
             <p>
-              Kylpyläreissu{" "}
-              <a href={Esite} target="_blank" rel="noreferrer">
-                Tropiclandiaan
-              </a>{" "}
-              20.1.2024
-            </p>
-            <p>
-              Jääkiekko/Teatterireissu{" "}
-              <a href={EsiteTre} target="_blank" rel="noreferrer">
-                Tampereelle
-              </a>{" "}
-              17.-18.2.2024
+              Pilkkikilpailut osaston mökillä 9.3.2024
             </p>
           </section>
           <section className="Item">
             <h2>SEURAAVA KOKOUS</h2>
             <p>Hallituksen kokous osaston toimistolla </p>
-            <p>maanantaina 12.2.2024 klo 19:00</p>
+            <p>perjantaina 19.4.2024 klo 18:00,</p>
+            <p>jonka jälkeen kevätkokous klo 19:00</p>
           </section>
         </div>
       </div>
