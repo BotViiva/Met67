@@ -5,6 +5,7 @@ import Tapahtumat from './Tapahtumat';
 import Mökki from './Mökki';
 import Hallitus from './Hallitus';
 import Galleria from './Galleria';
+import Footer from './Footer';
 
 const container = document.getElementById('root')
 const root = createRoot(container);
@@ -15,5 +16,6 @@ root.render(
     <Hallitus />
     <Galleria />
     <Mökki />
+    <Footer />
   </React.StrictMode>,
 );

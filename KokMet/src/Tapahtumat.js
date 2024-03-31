@@ -29,6 +29,20 @@ class Tapahtumat extends Component {
           <h2>
             Tervetuloa Kokkolan metallityöväen ammattiosasto 67:n sivuille!
           </h2>
+          <div className="Container">
+            <section className="Item">
+              <h2>SEURAAVAT TAPAHTUMAT</h2>
+              <p>
+
+              </p>
+            </section>
+            <section className="Item">
+              <h2>SEURAAVA KOKOUS</h2>
+              <p>Hallituksen kokous osaston toimistolla </p>
+              <p>perjantaina 19.4.2024 klo 18:00,</p>
+              <p>jonka jälkeen kevätkokous klo 19:00</p>
+            </section>
+          </div>
           <p className="Toiminnankuvaus">
             Ammattiosaston toiminnan tarkoitus on jäsenistön yhteistyön avulla
             parantaa ja puolustaa työ- ja palkkaehtoja, taloudellisia
@@ -46,20 +60,6 @@ class Tapahtumat extends Component {
             toimistolla. Kevät- ja syyskokous ilmoitetaan erikseen täällä sekä
             Teollisuusliiton sivuilla.
           </p>
-        </div>
-        <div className="Container">
-          <section className="Item">
-            <h2>SEURAAVAT TAPAHTUMAT</h2>
-            <p>
-              Pilkkikilpailut osaston mökillä 9.3.2024
-            </p>
-          </section>
-          <section className="Item">
-            <h2>SEURAAVA KOKOUS</h2>
-            <p>Hallituksen kokous osaston toimistolla </p>
-            <p>perjantaina 19.4.2024 klo 18:00,</p>
-            <p>jonka jälkeen kevätkokous klo 19:00</p>
-          </section>
         </div>
       </div>
     );

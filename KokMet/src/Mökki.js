@@ -15,11 +15,6 @@ class Mökki extends Component {
         <p>Osaston tilinumero: FI51 1065 3007 1012 35</p>
         <p>Avainten palautus 15:00 ja nouto klo 18:00</p>
       </div>
-      <footer>
-        <p className="Keskitetty">Kokkolan Metallityöväen Ammattiosasto ry.67</p>
-        <p className="Keskitetty">Perustettu 10.6.1917</p>
-        <p className="Allekirjoitus">© 2021 Jaakko Niininen</p>
-      </footer>
     </div>;
   }
 }
