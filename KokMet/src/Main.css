@@ -34,6 +34,10 @@
   flex-grow: 2;
   flex-shrink: 2;
   min-width: 400px;
+  background-color: darkslateblue;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 20px
 }
 
 .Mökki {
@@ -47,17 +51,6 @@
   border-radius: 5px;
 }
 
-.Mökkidiv {
-  max-width: 70%;
-  border-radius: 5px;
-  background-color: #dcdcdc;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  padding: 10px;
-  color: black;
-}
 
 .Hallitus {
   min-height: 100vh;
@@ -68,15 +61,14 @@
   font-size: calc(10px + 2vmin);
 }
 
-.HenkilötBox {
-  padding: 3%;
-}
 
 .Jäsenkirje {
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 10px;
   padding: 20px;
+  background-color: darkslateblue;
+  border-radius: 5px;
 }
 
 .Jäsenkirje h2 {
@@ -103,6 +95,11 @@
   align-items: center;
   padding: 0rem;
   flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.HenkilötBox {
+  padding: 2%;
 }
 
 
@@ -116,11 +113,22 @@
   color: black;
 }
 
+.Mökkidiv {
+  max-width: 70%;
+  border-radius: 5px;
+  background-color:lightblue;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: black;
+}
+
 footer {
   color: black;
   background-color: brown;
-  margin-bottom: 0;
-  min-height: 10vh;
+  height: 10vh;
 }
 
 .Allekirjoitus {
