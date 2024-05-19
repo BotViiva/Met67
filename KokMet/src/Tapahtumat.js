@@ -1,8 +1,6 @@
 import "./Main.css";
 import { Component } from "react";
 import Logo from "./Kuvat/logo.png";
-import Esite from "./Tiedostot/Vaasa2024.pdf";
-import EsiteTre from "./Tiedostot/TAMPERE.pdf";
 import "./Hallitus.js";
 
 class Tapahtumat extends Component {
@@ -38,9 +36,8 @@ class Tapahtumat extends Component {
             </section>
             <section className="Item">
               <h2>SEURAAVA KOKOUS</h2>
-              <p>Hallituksen kokous osaston toimistolla </p>
-              <p>perjantaina 19.4.2024 klo 18:00,</p>
-              <p>jonka jälkeen kevätkokous klo 19:00</p>
+              <p>Hallituksen kokous osaston MÖKILLÄ! </p>
+              <p>maanantaina 10.6.2024 klo 19:00</p>
             </section>
           </div>
           <p className="Toiminnankuvaus">
