@@ -5,10 +5,10 @@ class Mökki extends Component {
   render() {
     return <div className="Mökki">
       <div className="Mökkidiv">
-        <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 108</p>
+        <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 106</p>
         <p>Varaukset soittamalla/txt</p>
         <p>Yht. Tied.</p>
-        <p>0400 274862 Veikko Kiema</p>
+        <p>045 1547477 Joni Kivinen</p>
         <p>Avainmaksu osaston jäsenille</p>
         <p>su - to 30€, to - su 30€</p>
         <p>Syyskuun ensimmäinen viikko su - su 30€</p>

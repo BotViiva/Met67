@@ -31,7 +31,7 @@ class Hallitus extends Component {
           </a>
           <h3>Pilkkikilpailut osaston mökillä 9.3.2024</h3>
           <p>
-            Ilmoittautuminen mökillä (Jopintie 108) klo 11:00-12:00, ja kalastus
+            Ilmoittautuminen mökillä (Jopintie 106) klo 11:00-12:00, ja kalastus
             alkaa klo 12:00. Tarjolla makkaraa ja mahtavia palkintoja!
           </p>
           <h2 className="Omavastuu">

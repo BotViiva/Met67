@@ -29,12 +29,6 @@ class Tapahtumat extends Component {
           </h2>
           <div className="Container">
             <section className="Item">
-              <h2>SEURAAVAT TAPAHTUMAT</h2>
-              <p>
-
-              </p>
-            </section>
-            <section className="Item">
               <h2>SEURAAVA KOKOUS</h2>
               <p>Hallituksen kokous osaston MÖKILLÄ! </p>
               <p>maanantaina 10.6.2024 klo 19:00</p>
