@@ -2,6 +2,7 @@ import "./Main.css";
 import { Component } from "react";
 import Esite from "./Tiedostot/Vaasa2024.pdf";
 import EsiteTre from "./Tiedostot/TAMPERE.pdf";
+import Saunailta from "./Tiedostot/Saunailta.pdf";
 import HallitusLista from "./HallituksenLuonti.js";
 
 class Hallitus extends Component {
@@ -34,6 +35,13 @@ class Hallitus extends Component {
             Ilmoittautuminen mökillä (Jopintie 106) klo 11:00-12:00, ja kalastus
             alkaa klo 12:00. Tarjolla makkaraa ja mahtavia palkintoja!
           </p>
+          <h3>Saunailta osaston mökillä 20.9.2024 klo 18:00</h3>
+          <p>Rentoa oleskelua osaston jäsenten kesken. Pohjanmaan toiminta-alueen aluepäällikkö
+          Erno välimäki tulee myös kertomaan osaston toiminnasta. Tarjolla makkaraa ja virvokkeita.
+          </p>
+          <a href={Saunailta} target="_blank" rel="noreferrer">
+            Lataa esite
+          </a>
           <h2 className="Omavastuu">
             {" "}
             Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon
