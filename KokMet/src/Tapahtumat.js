@@ -30,8 +30,8 @@ class Tapahtumat extends Component {
           <div className="Container">
             <section className="Item">
               <h2>SEURAAVA KOKOUS</h2>
-              <p>Syyskokous osaston toimistolla</p>
-              <p>perjantaina 22.11.2024 klo 18:00</p>
+              <p>Osaston toimistolla</p>
+              <p>Maanantaina 9.12.2024 klo 18:00</p>
             </section>
           </div>
           <p className="Toiminnankuvaus">
