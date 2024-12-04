@@ -2,73 +2,73 @@
     {
         "nimi": "Tomi Junkkila",
         "titteli": "Puheenjohtaja",
-        "puhelinnumero": "045 6746720",
+        "puhelinnumero": "045 674 6720",
         "sähköposti": "tjunkkila@gmail.com"
     },
     {
         "nimi": "Arto Kykyri",
         "titteli": "Varapuheenjohtaja",
-        "puhelinnumero": "040 7334576",
+        "puhelinnumero": "040 733 4576",
         "sähköposti": "arto.kykyri80@gmail.com"
     },
     {
         "nimi": "Jaakko Niininen",
         "titteli": "Sihteeri",
-        "puhelinnumero": "044 9763056",
+        "puhelinnumero": "044 976 3056",
         "sähköposti": "jaakko.niininen@gmail.com"
     },
     {
         "nimi": "Tuomo Hautala",
         "titteli": "Taloudenhoitaja",
-        "puhelinnumero": "040 5220471",
+        "puhelinnumero": "040 522 0471",
         "sähköposti": "tomme.hautala@gmail.com"
     },
     {
         "nimi": "Joni Kivinen",
         "titteli": "Huvilan isäntä",
-        "puhelinnumero": "045 1547477",
+        "puhelinnumero": "045 154 7477",
         "sähköposti": ""
     },
     {
         "nimi": "Juha Witick",
         "titteli": "Jäsen",
-        "puhelinnumero": "050 5864238",
+        "puhelinnumero": "050 586 4238",
         "sähköposti": "juhawitick@hotmail.com"
     },
     {
-        "nimi": "Jeppe Koutonen",
-        "titteli": "Jäsen",
-        "puhelinnumero": "040 1892356",
-        "sähköposti": "ugkoutonen@gmail.com"
-    },
-    {
-        "nimi": "Martti Pukkinen",
-        "titteli": "Varajäsen",
-        "puhelinnumero": "040 5652164",
-        "sähköposti": "pukkinen.martti@gmail.com"
-    },
-    {
-        "nimi": "Greger Huldén",
-        "titteli": "Varajäsen",
-        "puhelinnumero": "050 3393684",
-        "sähköposti": "greger.hulden@anvianet.fi"
-    },
-    {
         "nimi": "Jarno Hakkio",
-        "titteli": "Varajäsen",
-        "puhelinnumero": "050 3368995",
+        "titteli": "Jäsen",
+        "puhelinnumero": "050 336 8995",
         "sähköposti": "jarno.hakkio@hotmail.com"
     },
     {
         "nimi": "Ville Saukko",
         "titteli": "Varajäsen",
-        "puhelinnumero": "050 3421214",
+        "puhelinnumero": "050 342 1214",
         "sähköposti": "saukonville@gmail.com"
     },
     {
-        "nimi": "Tero Tuoretmaa",
+        "nimi": "Jarkko Salomäki",
         "titteli": "Varajäsen",
-        "puhelinnumero": "040 0788183",
-        "sähköposti": "pata88@gmail.com"
+        "puhelinnumero": "050 301 8528",
+        "sähköposti": "jarkko.salomaki@protonmail.com"
+    },
+    {
+        "nimi": "Anders Åkerblom",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "044 521 6508",
+        "sähköposti": "anno.akerblom@gmail.com"
+    },
+    {
+        "nimi": "Kari-Pekka Karvinen",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "046 885 9555",
+        "sähköposti": "karipekkakarvinen@gmail.com"
+    },
+    {
+        "nimi": "Robert Vikman",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "040 722 9052",
+        "sähköposti": "rvikman@gmail.com"
     }
 ]
