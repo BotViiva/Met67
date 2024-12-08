@@ -1,8 +1,5 @@
-import { Component } from 'react';
-import "./Main.css";
 
-class Footer extends Component {
-    render() {
+function Footer () {
         return <div>
             <footer>
                 <p className="Keskitetty">Kokkolan Metallityöväen Ammattiosasto ry.67</p>
@@ -11,6 +8,6 @@ class Footer extends Component {
             </footer>
         </div>
     }
-}
+
 
 export default Footer;

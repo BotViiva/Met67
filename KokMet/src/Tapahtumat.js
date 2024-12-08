@@ -1,10 +1,6 @@
-import "./Main.css";
-import { Component } from "react";
 import Logo from "./Kuvat/logo.png";
-import "./Hallitus.js";
 
-class Tapahtumat extends Component {
-  render() {
+function Tapahtumat () {
     return (
       <div className="Tapahtumat">
         <div className="Header">
@@ -62,6 +58,6 @@ class Tapahtumat extends Component {
       </div>
     );
   }
-}
+
 
 export default Tapahtumat;

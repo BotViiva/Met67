@@ -1,8 +1,6 @@
-import './Main.css';
-import { Component } from "react";
 
-class Mökki extends Component {
-  render() {
+function Mökki () {
+
     return <div className="Mökki">
       <div className="Mökkidiv">
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 106</p>
@@ -17,6 +15,6 @@ class Mökki extends Component {
       </div>
     </div>;
   }
-}
+
 
 export default Mökki;
