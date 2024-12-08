@@ -1,12 +1,9 @@
-import "./Main.css";
-import { Component } from "react";
 import Esite from "./Tiedostot/Kalajoki2025.pdf";
 import EsiteTre from "./Tiedostot/TAMPERE.pdf";
 import Saunailta from "./Tiedostot/Saunailta.pdf";
-import HallitusLista from "./HallituksenLuonti.js";
+import HallitusLista from "./HallituksenLuonti";
 
-class Hallitus extends Component {
-  render() {
+function Hallitus ()  {
     return (
       <div className="Hallitus">
         <div className="Jäsenkirje">
@@ -55,6 +52,6 @@ class Hallitus extends Component {
       </div>
     );
   }
-}
+
 
 export default Hallitus;

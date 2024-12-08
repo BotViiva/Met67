@@ -1,11 +1,8 @@
-import { Component } from "react";
-import './Main.css';
 import jäsenet from './Hallitus.json';
 
 
 
-class HallitusLista extends Component {
-    render() {
+function HallitusLista () {
         const sorttaus = jäsenet.map((jäsen, index) =>
             <div className="HenkilötBox" key={index}>
                 <h2 >{jäsen.titteli}</h2>
@@ -15,7 +12,7 @@ class HallitusLista extends Component {
             </div>
         );
         return sorttaus;
-    }
-};
+    
+}
 
 export default HallitusLista
