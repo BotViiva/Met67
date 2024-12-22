@@ -34,7 +34,7 @@ function Tapahtumat () {
             <section className="Item">
               <h2>SEURAAVA KOKOUS</h2>
               <p>Osaston toimistolla</p>
-              <p>Maanantaina 9.12.2024 klo 18:00</p>
+              <p>Maanantaina 10.2.2025 klo 18:00</p>
             </section>
           </div>
           <p className="Toiminnankuvaus">
