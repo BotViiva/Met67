@@ -1,8 +1,8 @@
 import Logo from "./Kuvat/logo.png";
 
-function Tapahtumat () {
+function Landing () {
     return (
-      <div className="Tapahtumat">
+      <div className="Landing">
         <div className="Header">
           <header className="Otsikko">
             <a className="Logo" href="https://www.teollisuusliitto.fi/">
@@ -60,4 +60,4 @@ function Tapahtumat () {
   }
 
 
-export default Tapahtumat;
+export default Landing;

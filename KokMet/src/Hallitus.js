@@ -1,11 +1,12 @@
 import Esite from "./Tiedostot/Kalajoki2025.pdf";
-import HallitusLista from "./HallituksenLuonti";
+import HallitusLista from "./HallitusLista";
 
 function Hallitus ()  {
     return (
       <div className="Hallitus">
         <div className="Jäsenkirje">
           <h2>Tulevat tapahtumat</h2>
+          
           <h3>Kylpyläreissu Sanifaniin 8.2.2025</h3>
           <p>
           Kokkolan metallityöväen ao.67:n perinteinen koko perheen
