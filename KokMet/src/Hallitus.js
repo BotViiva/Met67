@@ -1,6 +1,4 @@
 import Esite from "./Tiedostot/Kalajoki2025.pdf";
-import EsiteTre from "./Tiedostot/TAMPERE.pdf";
-import Saunailta from "./Tiedostot/Saunailta.pdf";
 import HallitusLista from "./HallituksenLuonti";
 
 function Hallitus ()  {
@@ -16,29 +14,21 @@ function Hallitus ()  {
           <a href={Esite} target="_blank" rel="noreferrer">
             Lataa esite
           </a>
-          <h3>Jääkiekko/Teatterimatka Tampereelle 17.-18.2.2024</h3>
-          <p>
-            {" "}
-            Jääkiekko/teatterimatka Tampereelle Kokkolan matkatoimiston
-            järjestämänä. Omavastuu 60€/jäsen, 90€/avec. Bussikuljetus,
-            Tei-tuvalla ruokailu, teatteri tai jääkiekko, ja aamiainen kuuluu
-            omavastuuseen.
-          </p>
-          <a href={EsiteTre} target="_blank" rel="noreferrer">
-            Lataa esite
-          </a>
           <h3>Pilkkikilpailut osaston mökillä 9.3.2024</h3>
           <p>
             Ilmoittautuminen mökillä (Jopintie 106) klo 11:00-12:00, ja kalastus
             alkaa klo 12:00. Tarjolla makkaraa ja mahtavia palkintoja!
           </p>
-          <h3>Saunailta osaston mökillä 20.9.2024 klo 18:00</h3>
-          <p>Rentoa oleskelua osaston jäsenten kesken. Pohjanmaan toiminta-alueen aluepäällikkö
-          Erno välimäki tulee myös kertomaan osaston toiminnasta. Tarjolla makkaraa ja virvokkeita.
+          <h3>Teatteritapahtuma Kokkolassa 4.4.2025</h3>
+          <p>
+            Lisätietoja lähempänä.
           </p>
-          <a href={Saunailta} target="_blank" rel="noreferrer">
-            Lataa esite
-          </a>
+          <h3>Vaellusretki Iso-Syötteelle 19.-21.9.2025</h3>
+          <p>
+            Osasto järjestää ruskaretken Iso-Syötteelle. Matkaan lähdetään perjantaina 19.9,
+            ja matkalta palataan sunnuntaina 21.9. Majoitus on Kide-hotellissa tunturin juuressa.
+            Omavastuu jäseneltä 90€, ja avecilta 140€.
+          </p>
           <h2 className="Omavastuu">
             {" "}
             Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon
