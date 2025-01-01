@@ -15,7 +15,7 @@ function Hallitus ()  {
           <a href={Esite} target="_blank" rel="noreferrer">
             Lataa esite
           </a>
-          <h3>Pilkkikilpailut osaston mökillä 8.3.2024</h3>
+          <h3>Pilkkikilpailut osaston mökillä 8.3.2025</h3>
           <p>
             Ilmoittautuminen mökillä (Jopintie 106) klo 11:00-12:00, ja kalastus
             alkaa klo 12:00. Tarjolla makkaraa ja mahtavia palkintoja!
