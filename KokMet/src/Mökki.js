@@ -6,7 +6,7 @@ function Mökki () {
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 106</p>
         <p>Varaukset soittamalla/txt</p>
         <p>Yht. Tied.</p>
-        <p>045 1547477 Joni Kivinen</p>
+        <p>040 733 4576 Arto Kykyri</p>
         <p>Avainmaksu osaston jäsenille</p>
         <p>su - to 30€, to - su 30€</p>
         <p>Syyskuun ensimmäinen viikko su - su 30€</p>
