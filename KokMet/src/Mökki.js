@@ -1,12 +1,19 @@
+import yhteystiedot from './Hallitus.json'
 
-function Mökki () {
+
+const isäntä = yhteystiedot[4]["nimi"]
+const numero = yhteystiedot[4]["puhelinnumero"]
+
+export default function Mökki () {
+
 
     return <div className="Mökki">
       <div className="Mökkidiv">
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 106</p>
         <p>Varaukset soittamalla/txt</p>
-        <p>Yht. Tied.</p>
-        <p>040 733 4576 Arto Kykyri</p>
+        <p>Yhteystiedot</p>
+        {isäntä}<br/>
+        {numero}
         <p>Avainmaksu osaston jäsenille</p>
         <p>su - to 30€, to - su 30€</p>
         <p>Syyskuun ensimmäinen viikko su - su 30€</p>
@@ -15,6 +22,3 @@ function Mökki () {
       </div>
     </div>;
   }
-
-
-export default Mökki;
