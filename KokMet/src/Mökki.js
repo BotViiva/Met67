@@ -1,9 +1,13 @@
 import yhteystiedot from './Hallitus.json'
 
 
-const isäntä = yhteystiedot[4]["nimi"]
-const numero = yhteystiedot[4]["puhelinnumero"]
-
+const tiedot= () => {
+  for (let i = 0; i < yhteystiedot.length; i++) { 
+    if (yhteystiedot[i].titteli === "Huvilan isäntä") {
+      return <p>{yhteystiedot[i]["nimi"]} {yhteystiedot[i]["puhelinnumero"] }</p>
+    }
+  }
+} 
 export default function Mökki () {
 
 
@@ -12,8 +16,7 @@ export default function Mökki () {
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 106</p>
         <p>Varaukset soittamalla/txt</p>
         <p>Yhteystiedot</p>
-        {isäntä}<br/>
-        {numero}
+        {tiedot()}
         <p>Avainmaksu osaston jäsenille</p>
         <p>su - to 30€, to - su 30€</p>
         <p>Syyskuun ensimmäinen viikko su - su 30€</p>
