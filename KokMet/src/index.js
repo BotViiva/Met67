@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import Tapahtumat from './Tapahtumat';
+import Landing from './Landing';
 import Mökki from './Mökki';
 import Hallitus from './Hallitus';
 import Galleria from './Galleria';
@@ -12,7 +12,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Tapahtumat />
+    <Landing />
     <Hallitus />
     <Galleria />
     <Mökki />
