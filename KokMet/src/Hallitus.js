@@ -20,7 +20,7 @@ function Hallitus ()  {
             Ilmoittautuminen mökillä (Jopintie 106) klo 11:00-12:00, ja kalastus
             alkaa klo 12:00. Tarjolla makkaraa ja mahtavia palkintoja!
           </p>
-          <h3>Teatteritapahtuma Kokkolassa 4.4.2025</h3>
+          <h3>Teatteritapahtuma Kokkolassa siirretty syksylle</h3>
           <p>
             Lisätietoja lähempänä.
           </p>
