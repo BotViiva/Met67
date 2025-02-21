@@ -1,8 +1,8 @@
 import Logo from "./Kuvat/logo.png";
 
-function Tapahtumat () {
+function Landing () {
     return (
-      <div className="Tapahtumat">
+      <div className="Landing">
         <div className="Header">
           <header className="Otsikko">
             <a className="Logo" href="https://www.teollisuusliitto.fi/">
@@ -26,15 +26,16 @@ function Tapahtumat () {
           <div className="Container">
             <section className="Item">
               <h2>SEURAAVA TAPAHTUMA</h2>
-              <p>Kylpylämatka Sanifaniin</p>
-              <p>Lauantaina 8.2.2025</p>
+              <p>Pilkkikilpailut osaston mökillä</p>
+              <p>Lauantaina 8.3.2025 klo 12:00</p>
             </section>
           </div>
           <div className="Container">
             <section className="Item">
               <h2>SEURAAVA KOKOUS</h2>
               <p>Osaston toimistolla</p>
-              <p>Maanantaina 9.12.2024 klo 18:00</p>
+              <p>perjantaina 4.4.2025 klo 18:00,</p>
+              <p>jonka jälkeen KEVÄTKOKOUS klo 19:00</p>
             </section>
           </div>
           <p className="Toiminnankuvaus">
@@ -60,4 +61,4 @@ function Tapahtumat () {
   }
 
 
-export default Tapahtumat;
+export default Landing;

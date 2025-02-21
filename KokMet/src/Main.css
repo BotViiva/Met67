@@ -8,18 +8,10 @@
   align-items: center;
 }
 
-.Tervetuloa {
-  min-height: 40vh;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.Tapahtumat {
-  min-height: 50vh;
+.Landing {
   text-align: center;
   min-height: 100vh;
 }
-
 
 .Container {
   margin-left: auto;
@@ -45,13 +37,6 @@
 
 }
 
-#Kuva {
-  max-width: 70%;
-  height: auto;
-  border-radius: 5px;
-}
-
-
 .Hallitus {
   min-height: 100vh;
   display: flex;
@@ -60,7 +45,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
-
 
 .Jäsenkirje {
   margin-left: 30px;
