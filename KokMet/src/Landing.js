@@ -26,16 +26,15 @@ function Landing () {
           <div className="Container">
             <section className="Item">
               <h2>SEURAAVA TAPAHTUMA</h2>
-              <p>Pilkkikilpailut osaston mökillä</p>
-              <p>Lauantaina 8.3.2025 klo 12:00</p>
+              <p>Teatterireissu Lappajärvelle</p>
+              <p>Keskiviikkona 16.7.2025 </p>
             </section>
           </div>
           <div className="Container">
             <section className="Item">
               <h2>SEURAAVA KOKOUS</h2>
               <p>Osaston toimistolla</p>
-              <p>perjantaina 4.4.2025 klo 18:00,</p>
-              <p>jonka jälkeen KEVÄTKOKOUS klo 19:00</p>
+              <p>Tiistaina 10.6.2025 klo 18:00</p>
             </section>
           </div>
           <p className="Toiminnankuvaus">

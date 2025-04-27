@@ -1,5 +1,7 @@
 import Esite from "./Tiedostot/Kalajoki2025.pdf";
 import HallitusLista from "./HallitusLista";
+import Tulokset from "./Tiedostot/Pilkkikisatulokset.docx";
+import Ruskareissu from "./Tiedostot/Ruskareissu.docx";
 
 function Hallitus ()  {
     return (
@@ -20,9 +22,15 @@ function Hallitus ()  {
             Ilmoittautuminen mökillä (Jopintie 106) klo 11:00-12:00, ja kalastus
             alkaa klo 12:00. Tarjolla makkaraa ja mahtavia palkintoja!
           </p>
-          <h3>Teatteritapahtuma Kokkolassa siirretty syksylle</h3>
+          <a href={Tulokset} target="_blank" rel="noreferrer">
+            Tulokset löytyy täältä
+          </a>
+          <h3>Teatteritapahtuma Lappajärvellä keskiviikkona 16.7.2025</h3>
           <p>
-            Lisätietoja lähempänä.
+          "LÄHTISITKÖ" musiikkikomedia valloittaa Lappajärven kesäteatterin kesällä, 
+          ja ammattiosaston kautta pääset nauttimaan huipputeatterista ja
+          mahtavasta seurasta. Esitys alkaa klo 18:00, ja esityksen jälkeen on ruokailu.
+          50 ensimmäistä ilmoittautujaa pääsee mukaan. Ilmoittautumisesta tiedotetaan lähempänä.
           </p>
           <h3>Vaellusretki Iso-Syötteelle 19.-21.9.2025</h3>
           <p>
@@ -30,6 +38,9 @@ function Hallitus ()  {
             ja matkalta palataan sunnuntaina 21.9. Majoitus on Kide-hotellissa tunturin juuressa.
             Omavastuu jäseneltä 90€, ja avecilta 140€.
           </p>
+          <a href={Ruskareissu} target="_blank" rel="noreferrer">
+            Lataa esite
+          </a>
           <h2 className="Omavastuu">
             {" "}
             Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon
