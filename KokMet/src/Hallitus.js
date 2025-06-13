@@ -2,6 +2,7 @@ import Esite from "./Tiedostot/Kalajoki2025.pdf";
 import HallitusLista from "./HallitusLista";
 import Tulokset from "./Tiedostot/Pilkkikisatulokset.docx";
 import Ruskareissu from "./Tiedostot/Ruskareissu.docx";
+import Teatteriesite from "./Tiedostot/Kesäteatteri25.pdf";
 
 function Hallitus ()  {
     return (
@@ -30,8 +31,11 @@ function Hallitus ()  {
           "LÄHTISITKÖ" musiikkikomedia valloittaa Lappajärven kesäteatterin kesällä, 
           ja ammattiosaston kautta pääset nauttimaan huipputeatterista ja
           mahtavasta seurasta. Esitys alkaa klo 18:00, ja esityksen jälkeen on ruokailu.
-          50 ensimmäistä ilmoittautujaa pääsee mukaan. Ilmoittautumisesta tiedotetaan lähempänä.
+          50 ensimmäistä ilmoittautujaa pääsee mukaan.
           </p>
+          <a href={Teatteriesite} target="_blank" rel="noreferrer">
+            Lataa esite
+          </a>
           <h3>Vaellusretki Iso-Syötteelle 19.-21.9.2025</h3>
           <p>
             Osasto järjestää ruskaretken Iso-Syötteelle. Matkaan lähdetään perjantaina 19.9,

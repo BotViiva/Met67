@@ -34,7 +34,7 @@ function Landing () {
             <section className="Item">
               <h2>SEURAAVA KOKOUS</h2>
               <p>Osaston toimistolla</p>
-              <p>Tiistaina 10.6.2025 klo 18:00</p>
+              <p>Tiistaina 12.8.2025 klo 18:00</p>
             </section>
           </div>
           <p className="Toiminnankuvaus">
