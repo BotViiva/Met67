@@ -1,0 +1,74 @@
+[
+    {
+        "nimi": "Tomi Junkkila",
+        "titteli": "Puheenjohtaja",
+        "puhelinnumero": "045 674 6720",
+        "sähköposti": "tjunkkila@gmail.com"
+    },
+    {
+        "nimi": "Arto Kykyri",
+        "titteli": "Varapuheenjohtaja",
+        "puhelinnumero": "040 733 4576",
+        "sähköposti": "arto.kykyri80@gmail.com"
+    },
+    {
+        "nimi": "Jaakko Niininen",
+        "titteli": "Sihteeri",
+        "puhelinnumero": "044 976 3056",
+        "sähköposti": "jaakko.niininen@gmail.com"
+    },
+    {
+        "nimi": "Tuomo Hautala",
+        "titteli": "Taloudenhoitaja",
+        "puhelinnumero": "040 522 0471",
+        "sähköposti": "tomme.hautala@gmail.com"
+    },
+    {
+        "nimi": "Arto Kykyri",
+        "titteli": "Huvilan isäntä",
+        "puhelinnumero": "040 733 4576",
+        "sähköposti": "arto.kykyri80@gmail.com"
+    },
+    {
+        "nimi": "Juha Witick",
+        "titteli": "Jäsen",
+        "puhelinnumero": "050 586 4238",
+        "sähköposti": "juhawitick@hotmail.com"
+    },
+    {
+        "nimi": "Jarno Hakkio",
+        "titteli": "Jäsen",
+        "puhelinnumero": "050 336 8995",
+        "sähköposti": "jarno.hakkio@hotmail.com"
+    },
+    {
+        "nimi": "Ville Saukko",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "050 342 1214",
+        "sähköposti": "saukonville@gmail.com"
+    },
+    {
+        "nimi": "Jarkko Salomäki",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "050 301 8528",
+        "sähköposti": "jarkko.salomaki@protonmail.com"
+    },
+    {
+        "nimi": "Anders Åkerblom",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "044 521 6508",
+        "sähköposti": "anno.akerblom@gmail.com"
+    },
+    {
+        "nimi": "Kari-Pekka Karvinen",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "046 885 9555",
+        "sähköposti": "karipekkakarvinen@gmail.com"
+    },
+    {
+        "nimi": "Robert Vikman",
+        "titteli": "Varajäsen",
+        "puhelinnumero": "040 722 9052",
+        "sähköposti": "rvikman@gmail.com"
+    }
+]
