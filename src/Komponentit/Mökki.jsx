@@ -1,4 +1,5 @@
 import yhteystiedot from '../Hallitus.json'
+import '../Main.css';
 
 const huvilanIsanta = yhteystiedot.find(j => j.titteli === "Huvilan isäntä");
 

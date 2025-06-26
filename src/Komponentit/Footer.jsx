@@ -1,5 +1,5 @@
 
-function Footer () {
+const Footer = () => {
         return <div>
             <footer>
                 <p className="Keskitetty">Kokkolan Metallityöväen Ammattiosasto ry.67</p>
