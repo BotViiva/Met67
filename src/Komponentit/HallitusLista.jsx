@@ -11,7 +11,7 @@ function HallitusLista () {
                 <p >{jäsen.sähköposti}</p>
             </div>
         );
-        return sorttaus;
+        return <>{sorttaus}</>;
     
 }
 
