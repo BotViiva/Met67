@@ -1,4 +1,4 @@
-import yhteystiedot from './Hallitus.json'
+import yhteystiedot from '../Hallitus.json'
 
 
 const tiedot= () => {

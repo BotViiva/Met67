@@ -1,4 +1,4 @@
-import Logo from "./Kuvat/logo.png";
+import Logo from "../Kuvat/logo.png";
 
 function Landing () {
     return (

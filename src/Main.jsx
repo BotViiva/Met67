@@ -1,21 +1,20 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import Landing from './Landing';
-import Mökki from './Mökki';
-import Hallitus from './Hallitus';
-import Galleria from './Galleria';
-import Footer from './Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Komponentit/Home.jsx';
+import Footer from './Komponentit/Footer.jsx';
 
 const container = document.getElementById('root')
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Landing />
-    <Hallitus />
-    <Galleria />
-    <Mökki />
-    <Footer />
+    <Router>
+        <Routes>
+          <Route path="/" element={<Home /> } />
+        </Routes>
+      <Footer />
+    </Router>
   </React.StrictMode>,
 );

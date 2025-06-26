@@ -1,4 +1,4 @@
-import jäsenet from './Hallitus.json';
+import jäsenet from '../Hallitus.json';
 
 
 
