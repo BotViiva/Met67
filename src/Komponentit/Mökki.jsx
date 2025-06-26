@@ -5,7 +5,6 @@ const huvilanIsanta = yhteystiedot.find(j => j.titteli === "Huvilan isäntä");
 
 export default function Mökki () {
 
-
     return <div className="Mökki">
       <div className="Mökkidiv">
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 106</p>
