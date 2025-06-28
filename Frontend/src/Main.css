@@ -1,0 +1,137 @@
+.Otsikko {
+  background-color: brown;
+  margin-top: 0;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.Landing {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.Container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Item {
+  flex-grow: 2;
+  flex-shrink: 2;
+  min-width: 400px;
+  background-color: darkslateblue;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 20px
+}
+
+.Mökki {
+  text-align: center;
+
+}
+
+.Hallitus {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Jäsenkirje {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: darkslateblue;
+  border-radius: 5px;
+}
+
+.Jäsenkirje h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.Keskitetty {
+  text-align: center;
+}
+
+.Omavastuu {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20vh;
+}
+
+.Henkilöt {
+  background: white;
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0rem;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.HenkilötBox {
+  padding: 1%;
+}
+
+
+.Toiminnankuvaus {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Bold {
+  font-weight: bold;
+  color: black;
+}
+
+.Mökkidiv {
+  max-width: 70%;
+  border-radius: 5px;
+  background-color:lightblue;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: black;
+}
+
+footer {
+  color: black;
+  background-color: brown;
+  height: 10vh;
+}
+
+.Allekirjoitus {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-group {
+  background-color: darkslateblue;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  color: white;
+}
