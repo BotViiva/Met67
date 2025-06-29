@@ -1,24 +1,8 @@
-import Logo from "../Kuvat/logo.png";
 
-function Landing () {
+
+const Landing = () => {
     return (
       <div className="Landing">
-        <div className="Header">
-          <header className="Otsikko">
-            <a className="Logo" href="https://www.teollisuusliitto.fi/">
-              <img
-                className="Logo-img"
-                src={Logo}
-                width="170"
-                height="50"
-                alt="Teollisuusliiton logo"
-              />
-            </a>
-            <div className="Pääotsikko">
-              <h1> Metalli 67 </h1>
-            </div>
-          </header>
-        </div>
         <div className="Tervetuloa">
           <h2>
             Tervetuloa Kokkolan metallityöväen ammattiosasto 67:n sivuille!

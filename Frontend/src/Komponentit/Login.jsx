@@ -1,7 +1,6 @@
-import React, { use, useState } from "react";
+import { useState } from "react";
 import "../Main.css";
 import { useNavigate } from "react-router-dom";
-import Logo from "../Kuvat/logo.png";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -37,22 +36,6 @@ const Login = () => {
 
   return (
     <>
-    <div className="Header">
-              <header className="Otsikko">
-                <a className="Logo" href="https://www.teollisuusliitto.fi/">
-                  <img
-                    className="Logo-img"
-                    src={Logo}
-                    width="170"
-                    height="50"
-                    alt="Teollisuusliiton logo"
-                  />
-                </a>
-                <div className="Pääotsikko">
-                  <h1> Metalli 67 </h1>
-                </div>
-              </header>
-            </div>
     <div className="login-container">
       <h1>Kirjaudu sisään</h1>
       <form onSubmit={handleSubmit}>

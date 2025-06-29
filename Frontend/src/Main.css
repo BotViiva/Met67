@@ -13,6 +13,18 @@
   min-height: 100vh;
 }
 
+.Pääotsikko {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  text-align: center;
+
+}
+
 .Container {
   margin-left: auto;
   margin-right: auto;
@@ -110,9 +122,13 @@
 }
 
 footer {
-  color: black;
   background-color: brown;
-  height: 10vh;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .Allekirjoitus {
@@ -125,7 +141,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .form-group {
@@ -134,4 +150,22 @@ footer {
   border-radius: 5px;
   width: 300px;
   color: white;
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.login-button {
+  background-color: darkslateblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: right;
 }
