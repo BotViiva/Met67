@@ -35,7 +35,7 @@ const Landing = () => {
               <>
                 <p>{seuraavaTapahtuma.otsikko}</p>
                 <p>{seuraavaTapahtuma.paikka}</p>
-                <p>{new Date(seuraavaTapahtuma.aika).toLocaleString("fi-FI")}</p>
+                <p>{new Date(seuraavaTapahtuma.aika).toLocaleDateString("fi-FI")}</p>
               </>
             ) : (
               <p>Ei tulevia tapahtumia.</p>

@@ -1,6 +1,8 @@
 import Hallituslomake from "./Hallituslomake";
 import Kokouslomake from "./Kokouslomake";
 import Tapahtumalomake from "./Tapahtumalomake";
+import Kokouslista from "./Kokouslista";
+import Tapahtumalista from "./Tapahtumalista";
 
 const handleLogout = () => {
   localStorage.removeItem("token");
@@ -12,8 +14,9 @@ const Admin = () => (
     <h1>Hallintapaneeli</h1>
     <Hallituslomake />
     <Kokouslomake />
+    <Kokouslista />
     <Tapahtumalomake />
-    <p>Muista kirjautua ulos, kun olet valmis!</p>
+    <Tapahtumalista />
     <button onClick={handleLogout} style={{ marginTop: "2em" }}>Kirjaudu ulos</button>
   </div>
 );

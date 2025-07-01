@@ -178,4 +178,30 @@ app.get('/api/tapahtumat', async (req, res) => {
   }
 });
 
+// Poista kokous
+app.delete('/api/kokoukset/:id', authenticateToken, async (req, res) => {
+  try {
+    await db.execute('DELETE FROM kokoukset WHERE id = ?', [req.params.id]);
+    res.json({ message: 'Kokous poistettu!' });
+  } catch (err) {
+    res.status(500).json({ error: 'Virhe poistettaessa kokousta.' });
+  }
+});
+
+// Poista tapahtuma (+ poista PDF-tiedosto jos haluat)
+import fs from 'fs';
+app.delete('/api/tapahtumat/:id', authenticateToken, async (req, res) => {
+  try {
+    // Hae tiedostonimi ennen poistoa
+    const [rows] = await db.execute('SELECT pdf FROM tapahtumat WHERE id = ?', [req.params.id]);
+    if (rows[0]?.pdf) {
+      fs.unlink(`uploads/${rows[0].pdf}`, () => {}); // Poista PDF, jos on
+    }
+    await db.execute('DELETE FROM tapahtumat WHERE id = ?', [req.params.id]);
+    res.json({ message: 'Tapahtuma poistettu!' });
+  } catch (err) {
+    res.status(500).json({ error: 'Virhe poistettaessa tapahtumaa.' });
+  }
+});
+
 app.listen(PORT, () => console.log(`Serveri käynnissä portissa ${PORT}`));

@@ -76,7 +76,7 @@ const Tapahtumalomake = () => {
       <label>
         Aika:
         <input
-          type="datetime-local"
+          type="date"
           name="aika"
           value={tapahtuma.aika}
           onChange={handleChange}
