@@ -85,13 +85,18 @@ const Hallituslomake = () => {
             onChange={e => handleChange(idx, "nimi", e.target.value)}
             required
           />
-          <input
-            type="text"
-            placeholder="Titteli"
+          <select
             value={jäsen.titteli}
             onChange={e => handleChange(idx, "titteli", e.target.value)}
-            required
-          />
+            required>
+              <option value="Jäsen">Jäsen</option>
+              <option value="Varajäsen">Varajäsen</option>
+              <option value="Taloudenhoitaja">Taloudenhoitaja</option>
+              <option value="Puheenjohtaja">Puheenjohtaja</option>
+              <option value="Varapuheenjohtaja">Varapuheenjohtaja</option>
+              <option value="Sihteeri">Sihteeri</option>
+              <option value="Huvilan isäntä">Huvilan isäntä</option>
+            </select>
           <input
             type="text"
             placeholder="Puhelinnumero"

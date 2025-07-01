@@ -204,4 +204,18 @@ app.delete('/api/tapahtumat/:id', authenticateToken, async (req, res) => {
   }
 });
 
+// Hae koko vuoden tapahtumat
+app.get('/api/tapahtumat', async (req, res) => {
+  try {
+    const vuosi = req.query.vuosi || new Date().getFullYear();
+    const [rows] = await db.execute(
+      "SELECT * FROM tapahtumat WHERE YEAR(aika) = ? ORDER BY aika ASC",
+      [vuosi]
+    );
+    res.json(rows);
+  } catch (err) {
+    res.status(500).json({ error: "Virhe haettaessa tapahtumia." });
+  }
+});
+
 app.listen(PORT, () => console.log(`Serveri käynnissä portissa ${PORT}`));
