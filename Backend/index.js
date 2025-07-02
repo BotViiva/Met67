@@ -54,9 +54,25 @@ app.post('/api/users', async (req, res) => {
 
 // POST /api/login - tarkistaa käyttäjätunnuksen ja salasanan
 app.post('/api/login', async (req, res) => {
-  const { username, password } = req.body;
-  if (!username || !password) return res.status(400).json({ error: 'Anna käyttäjätunnus ja salasana.' });
 
+  
+
+  const { username, password, recaptchaToken } = req.body;
+  
+  // Tarkista reCAPTCHA
+  if (!recaptchaToken) {
+    return res.status(400).json({ error: "reCAPTCHA puuttuu." });
+  }
+  // Tarkista Googlelta
+  const secret = process.env.RECAPTCHA_SECRET;
+  const verifyUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secret}&response=${recaptchaToken}`;
+  const googleRes = await fetch(verifyUrl, { method: "POST" });
+  const googleData = await googleRes.json();
+  if (!googleData.success) {
+    return res.status(400).json({ error: "reCAPTCHA epäonnistui." });
+  }
+  // Jos reCAPTCHA onnistui, jatketaan kirjautumista
+  if (!username || !password) return res.status(400).json({ error: 'Anna käyttäjätunnus ja salasana.' });
   try {
     // Hae käyttäjä tietokannasta
     const [rows] = await db.execute('SELECT * FROM users WHERE username = ?', [username]);
@@ -166,18 +182,6 @@ app.get('/api/kokoukset', async (req, res) => {
   }
 });
 
-// Hae tulevat tapahtumat aikajärjestyksessä
-app.get('/api/tapahtumat', async (req, res) => {
-  try {
-    const [rows] = await db.execute(
-      "SELECT * FROM tapahtumat WHERE aika > NOW() ORDER BY aika ASC"
-    );
-    res.json(rows);
-  } catch (err) {
-    res.status(500).json({ error: "Virhe haettaessa tapahtumia." });
-  }
-});
-
 // Poista kokous
 app.delete('/api/kokoukset/:id', authenticateToken, async (req, res) => {
   try {
@@ -204,14 +208,21 @@ app.delete('/api/tapahtumat/:id', authenticateToken, async (req, res) => {
   }
 });
 
-// Hae koko vuoden tapahtumat
 app.get('/api/tapahtumat', async (req, res) => {
   try {
-    const vuosi = req.query.vuosi || new Date().getFullYear();
-    const [rows] = await db.execute(
-      "SELECT * FROM tapahtumat WHERE YEAR(aika) = ? ORDER BY aika ASC",
-      [vuosi]
-    );
+    let rows;
+    if (req.query.vuosi) {
+      // Palauta tietyn vuoden tapahtumat
+      [rows] = await db.execute(
+        "SELECT * FROM tapahtumat WHERE YEAR(aika) = ? ORDER BY aika ASC",
+        [req.query.vuosi]
+      );
+    } else {
+      // Palauta tulevat tapahtumat
+      [rows] = await db.execute(
+        "SELECT * FROM tapahtumat WHERE aika >= CURDATE() ORDER BY aika ASC"
+      );
+    }
     res.json(rows);
   } catch (err) {
     res.status(500).json({ error: "Virhe haettaessa tapahtumia." });

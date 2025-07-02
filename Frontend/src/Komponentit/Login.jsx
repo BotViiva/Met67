@@ -1,23 +1,36 @@
 import { useState } from "react";
 import "../Main.css";
 import { useNavigate } from "react-router-dom";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [recaptchaToken, setRecaptchaToken] = useState("");
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
+
+  
+  const handleRecaptcha = (token) => {
+    setRecaptchaToken(token);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+    if (!recaptchaToken) {
+      setError("Vahvista reCAPTCHA!");
+      return;
+    }
+  
+
     
     try {
       const response = await fetch("http://localhost:5000/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ username, password, recaptchaToken }),
       });
       const data = await response.json();
       if (response.ok) {
@@ -64,6 +77,10 @@ const Login = () => {
         {error && <div className="error">{error}</div>}
         <button type="submit">Kirjaudu</button>
         <button type="button" onClick={() => alert('Salasana unohtunut? Ota yhteyttä IT-tukeen.')}>Unohditko salasanan?</button>
+        <ReCAPTCHA
+          sitekey="6LcRonQrAAAAAE_mRu5vdf-Ot9-18Iw8fzvJUYb4"
+          onChange={handleRecaptcha}
+        />
       </form>
     </div>
     </>
