@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
-const Kokouslomake = () => {
+const Kokouslomake = (fetchKokoukset) => {
   const [kokous, setKokous] = useState({
     tyyppi: "",
     aika: "",
@@ -26,13 +27,15 @@ const Kokouslomake = () => {
         body: JSON.stringify(kokous)
       });
       if (response.ok) {
-        setKokousMsg("Kokous lisätty!");
+        toast.success("Kokous lisätty!");
+        fetchKokoukset();
         setKokous({ tyyppi: "", aika: "", paikka: "Osaston toimisto, Pitkänsillankatu 23" });
+        return;
       } else {
-        setKokousMsg("Virhe tallennuksessa.");
+        toast.error("Virhe tallennuksessa.");
       }
     } catch {
-      setKokousMsg("Yhteysvirhe palvelimeen.");
+      toast.error("Yhteysvirhe palvelimeen.");
     }
   };
 

@@ -15,11 +15,15 @@ export default function Tapahtumat() {
   }, []);
 
   return (
-    <div className="Jäsenkirje">
-      <h2>Tulevat tapahtumat</h2>
+    <>
+      <h1>Tulevat tapahtumat</h1>
       {tapahtumat.length === 0 && <p>Tapahtumat lisätään myöhemmin.</p>}
       {tapahtumat.map(t => (
-        <div key={t.id} style={{ marginBottom: "2em" }}>
+        <div className="div-metal-plate" key={t.id} style={{ marginBottom: "2em", margin: "10px auto  ", maxWidth: "900px" }}>
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
           <h3>
             {t.otsikko}{" "}
             {t.aika && (
@@ -45,6 +49,6 @@ export default function Tapahtumat() {
         Kaikki omavastuut maksetaan ennen tapahtumaa osaston tilinumeroon
         FI51 1065 3007 1012 35
       </h2>
-    </div>
+    </>
   );
 }

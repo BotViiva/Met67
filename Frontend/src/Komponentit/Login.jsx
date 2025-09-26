@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../Main.css";
 import { useNavigate } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
+import { toast } from "react-toastify";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -20,7 +21,7 @@ const Login = () => {
     e.preventDefault();
     setError("");
     if (!recaptchaToken) {
-      setError("Vahvista reCAPTCHA!");
+      toast.error("Vahvista reCAPTCHA!");
       return;
     }
   
@@ -38,12 +39,17 @@ const Login = () => {
         localStorage.setItem("token", data.token);
         navigate("/admin"); // Ohjaa hallintasivulle
       } else {
-        setError(data.error || "Kirjautuminen epäonnistui.");
+        toast.error(data.error || "Kirjautuminen epäonnistui.");
       }
     } catch (err) {
-      setError("Yhteysvirhe palvelimeen.");
+      if (err.response === 401) {
+        toast.error("Virheellinen käyttäjätunnus tai salasana.");
+      }
+      else if (err.response === 403) {
+      toast.error("Yhteysvirhe palvelimeen.");
     }
-  };
+  }
+};
 
   
 
@@ -76,7 +82,7 @@ const Login = () => {
         </div>
         {error && <div className="error">{error}</div>}
         <button type="submit">Kirjaudu</button>
-        <button type="button" onClick={() => alert('Salasana unohtunut? Ota yhteyttä IT-tukeen.')}>Unohditko salasanan?</button>
+        <button type="button" onClick={() => toast('Salasana unohtunut? Ota yhteyttä IT-tukeen.')}>Unohditko salasanan?</button>
         <ReCAPTCHA
           sitekey="6LcRonQrAAAAAE_mRu5vdf-Ot9-18Iw8fzvJUYb4"
           onChange={handleRecaptcha}

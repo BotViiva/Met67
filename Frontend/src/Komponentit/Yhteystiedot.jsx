@@ -1,12 +1,11 @@
 import HallitusLista from './HallitusLista.jsx';
 import Tapahtumat from './Tapahtumat.jsx';
 
-function Hallitus ()  {
+function Yhteystiedot ()  {
     return (
       <div className="Hallitus">
-          <Tapahtumat />
           <h2>Hallitus ja toimihenkilöt vuodelle 2025</h2>
-          <div className="Henkilöt">
+          <div>
             <HallitusLista />
           </div>
         </div>
@@ -14,4 +13,4 @@ function Hallitus ()  {
   }
 
 
-export default Hallitus;
+export default Yhteystiedot;

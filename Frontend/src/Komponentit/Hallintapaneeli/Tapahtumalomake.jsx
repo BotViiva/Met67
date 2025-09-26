@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
-const Tapahtumalomake = () => {
+const Tapahtumalomake = ({fetchTapahtumat}) => {
   const [tapahtuma, setTapahtuma] = useState({
     otsikko: "",
     paikka: "",
@@ -39,14 +40,15 @@ const Tapahtumalomake = () => {
       });
 
       if (response.ok) {
-        setMsg("Tapahtuma lisätty!");
+        toast.success("Tapahtuma lisätty!");
         setTapahtuma({ otsikko: "", paikka: "", aika: "", kuvaus: "" });
         setPdf(null);
+        fetchTapahtumat();
       } else {
-        setMsg("Virhe tallennuksessa.");
+        toast.error("Virhe tallennuksessa.");
       }
     } catch {
-      setMsg("Yhteysvirhe palvelimeen.");
+      toast.error("Yhteysvirhe palvelimeen.");
     }
   };
 
@@ -93,7 +95,7 @@ const Tapahtumalomake = () => {
         />
       </label>
       <label>
-        PDF-esite (valinnainen):
+        Esite (valinnainen):
         <input
           type="file"
           accept="application/pdf"

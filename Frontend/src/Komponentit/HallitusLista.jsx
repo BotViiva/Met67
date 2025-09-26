@@ -28,7 +28,11 @@ const HallitusLista = () => {
     return (
         <>
             {jäsenet.map((jäsen, index) =>
-                <div className="HenkilötBox" key={index}>
+                <div className="div-metal-plate" key={index} style={{ marginBottom: "2em", margin: "10px auto  ", maxWidth: "900px" }}>
+                    <div className="pin pin-tl"></div>
+          <div className="pin pin-tr"></div>
+          <div className="pin pin-bl"></div>
+          <div className="pin pin-br"></div>
                     <h2>{jäsen.titteli}</h2>
                     <p>{jäsen.nimi}</p>
                     <p>{jäsen.puhelinnumero}</p>

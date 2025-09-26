@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import MetalPlatesContainer from "./MetalPlatesContainer";
+import { Meta } from "react-router-dom";
 
 const Landing = () => {
   const [seuraavaKokous, setSeuraavaKokous] = useState(null);
@@ -23,13 +25,14 @@ const Landing = () => {
   }, []);
 
   return (
-    <div className="Landing">
-      <div className="Tervetuloa">
-        <h2>
-          Tervetuloa Kokkolan metallityöväen ammattiosasto 67:n sivuille!
-        </h2>
-        <div className="Container">
-          <section className="Item">
+    <div>
+      <p></p>
+        <MetalPlatesContainer>
+          <section className="div-metal-plate">
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
             <h2>SEURAAVA TAPAHTUMA</h2>
             {seuraavaTapahtuma ? (
               <>
@@ -41,9 +44,11 @@ const Landing = () => {
               <p>Ei tulevia tapahtumia.</p>
             )}
           </section>
-        </div>
-        <div className="Container">
-          <section className="Item">
+          <section className="div-metal-plate">
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
             <h2>SEURAAVA KOKOUS</h2>
             {seuraavaKokous ? (
               <>
@@ -52,28 +57,29 @@ const Landing = () => {
                 <p>{seuraavaKokous.paikka}</p>
               </>
             ) : (
-              <p>Ei tulevia kokouksia.</p>
+              <p>Ilmoitetaan myöhemmin.</p>
             )}
           </section>
-        </div>
-          <p className="Toiminnankuvaus">
+        </MetalPlatesContainer>
+        <div className="info-box">
+          <p>
             Ammattiosaston toiminnan tarkoitus on jäsenistön yhteistyön avulla
             parantaa ja puolustaa työ- ja palkkaehtoja, taloudellisia
             sosiaalisia etuja, sekä toimia palkansaajien yhteiskunnallisen
             aseman, oikeudenmukaisuuden ja tasa-arvon edistamiseksi.
-            Ammattiosasto on Teollisuusliitto ry :n jäsen
+            Ammattiosasto on Teollisuusliitto ry :n jäsen.
           </p>
-          <p className="Toiminnankuvaus">
+          <p>
             Näiden perustehtävien lisäksi osasto pyrkii lisäämään jäsenistönsä
             yhteenkuuluvuutta ja solidaarisuutta järjestämällä yhteisiä
             tapahtumia, joihin ovat tervetulleita myös perheenjäsenet.
           </p>
-          <p className="Toiminnankuvaus">
+          <p>
             Hallitus kokoontuu puheenjohtajan kutsusta 1- 2 kk. välein osaston
             toimistolla. Kevät- ja syyskokous ilmoitetaan erikseen täällä sekä
             Teollisuusliiton sivuilla.
           </p>
-        </div>
+          </div>
       </div>
     );
   }

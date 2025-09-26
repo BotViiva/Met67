@@ -1,17 +1,6 @@
-import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
-const Kokouslista = () => {
-  const [kokoukset, setKokoukset] = useState([]);
-  const [msg, setMsg] = useState("");
-
-  const fetchKokoukset = async () => {
-    const res = await fetch("http://localhost:5000/api/kokoukset");
-    const data = await res.json();
-    setKokoukset(data);
-  };
-
-  useEffect(() => { fetchKokoukset(); }, []);
-
+const Kokouslista = ({ kokoukset, fetchKokoukset }) => {
   const poistaKokous = async (id) => {
     const token = localStorage.getItem("token");
     const res = await fetch(`http://localhost:5000/api/kokoukset/${id}`, {
@@ -19,10 +8,10 @@ const Kokouslista = () => {
       headers: { "Authorization": `Bearer ${token}` }
     });
     if (res.ok) {
-      setMsg("Kokous poistettu!");
+      toast.success("Kokous poistettu!");
       fetchKokoukset();
     } else {
-      setMsg("Virhe poistossa.");
+      toast.error("Virhe poistossa.");
     }
   };
 
@@ -38,7 +27,6 @@ const Kokouslista = () => {
           </li>
         ))}
       </ul>
-      {msg && <div className="info">{msg}</div>}
     </div>
   );
 };

@@ -1,16 +1,8 @@
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
-const Tapahtumalista = () => {
-  const [tapahtumat, setTapahtumat] = useState([]);
+const Tapahtumalista = ({tapahtumat, fetchTapahtumat}) => {
   const [msg, setMsg] = useState("");
-
-  const fetchTapahtumat = async () => {
-    const res = await fetch("http://localhost:5000/api/tapahtumat");
-    const data = await res.json();
-    setTapahtumat(data);
-  };
-
-  useEffect(() => { fetchTapahtumat(); }, []);
 
   const poistaTapahtuma = async (id) => {
     const token = localStorage.getItem("token");
@@ -19,10 +11,10 @@ const Tapahtumalista = () => {
       headers: { "Authorization": `Bearer ${token}` }
     });
     if (res.ok) {
-      setMsg("Tapahtuma poistettu!");
+      toast.success("Tapahtuma poistettu!");
       fetchTapahtumat();
     } else {
-      setMsg("Virhe poistossa.");
+      toast.error("Virhe poistossa.");
     }
   };
 
@@ -36,7 +28,7 @@ const Tapahtumalista = () => {
             {t.otsikko} – {new Date(t.aika).toLocaleDateString("fi-FI")} – {t.paikka}
             <button onClick={() => poistaTapahtuma(t.id)}>Poista</button>
             {t.pdf && (
-              <a href={`http://localhost:5000/uploads/${t.pdf}`} target="_blank" rel="noopener noreferrer">PDF</a>
+              <a href={`http://localhost:5000/uploads/${t.pdf}`} target="_blank" rel="noopener noreferrer">Tiedosto</a>
             )}
           </li>
         ))}

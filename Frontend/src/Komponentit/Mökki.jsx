@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import '../Main.css';
 
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
+import images from './Kuvat'
+
 export default function Mökki() {
   const [huvilanIsanta, setHuvilanIsanta] = useState(null);
 
@@ -21,8 +25,21 @@ export default function Mökki() {
   }, []);
 
   return (
-    <div className="Mökki">
-      <div className="Mökkidiv">
+    <>
+        <h1>Osaston Mökki</h1>
+      <div className="div-metal-plate" style={{ margin: "10px auto  ", maxWidth: "900px" }}>
+        <div className="pin pin-tl"></div>
+        <div className="pin pin-tr"></div>
+        <div className="pin pin-bl"></div>
+        <div className="pin pin-br"></div>
+
+        <ImageGallery items={images}
+            showPlayButton={false}
+            showFullscreenButton={false}
+        />
+     
+        <h2 style={{ marginTop: "2em" }}>HUVILAN VUOKRAUS</h2>
+
         <p>Osaston huvila sijaitsee Honkaluodossa osoitteessa Jopintie 106</p>
         <p>Varaukset soittamalla/txt</p>
         <p>Yhteystiedot</p>
@@ -36,6 +53,6 @@ export default function Mökki() {
         <p>Osaston tilinumero: FI51 1065 3007 1012 35</p>
         <p>Avainten palautus 15:00 ja nouto klo 18:00</p>
       </div>
-    </div>
+    </>
   );
 }

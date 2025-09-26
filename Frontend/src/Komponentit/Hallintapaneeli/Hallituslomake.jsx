@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 
 const Hallituslomake = () => {
   const [hallitus, setHallitus] = useState([
@@ -43,12 +44,12 @@ const Hallituslomake = () => {
       });
       const data = await response.json();
       if (response.ok) {
-        setMessage("Hallitus päivitetty!");
+        toast.success("Hallitus päivitetty!");
       } else {
-        setMessage(data.error || "Virhe tallennuksessa.");
+        toast.error(data.error || "Virhe tallennuksessa.");
       }
     } catch {
-      setMessage("Yhteysvirhe palvelimeen.");
+      toast.info("Yhteysvirhe palvelimeen.");
     }
   };
 
@@ -63,13 +64,13 @@ const Hallituslomake = () => {
         }
       });
       if (response.ok) {
-        setMessage("Hallitus tyhjennetty!");
+        toast.success("Hallitus tyhjennetty!");
         setHallitus([{ nimi: "", titteli: "", puhelinnumero: "", sähköposti: "" }]);
       } else {
-        setMessage("Virhe tyhjennyksessä.");
+        toast.error("Virhe tyhjennyksessä.");
       }
     } catch {
-      setMessage("Yhteysvirhe palvelimeen.");
+      toast.info("Yhteysvirhe palvelimeen.");
     }
   };
 
