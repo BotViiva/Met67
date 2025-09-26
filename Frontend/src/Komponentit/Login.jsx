@@ -55,9 +55,16 @@ const Login = () => {
 
   return (
     <>
-    <div className="login-container">
       <h1>Kirjaudu sisään</h1>
+    <div className="div-metal-plate" style={{ maxWidth: '500px',maxHeight:'500px', margin: ' auto', position: 'relative' }}>
+      
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
+    <div className="login-container">
       <form onSubmit={handleSubmit}>
+        <div className="Spacer"></div>
         <div className="form-group">
           <label htmlFor="username">Käyttäjä:</label>
           <input
@@ -69,6 +76,7 @@ const Login = () => {
             onChange={e => setUsername(e.target.value)}
           />
         </div>
+        <div className="Spacer"></div>
         <div className="form-group">
           <label htmlFor="password">Salasana:</label>
           <input
@@ -80,17 +88,25 @@ const Login = () => {
             onChange={e => setPassword(e.target.value)}
           />
         </div>
+        <div className="Spacer"></div>
         {error && <div className="error">{error}</div>}
-        <button type="submit">Kirjaudu</button>
-        <button type="button" onClick={() => toast('Salasana unohtunut? Ota yhteyttä IT-tukeen.')}>Unohditko salasanan?</button>
+        
+        <div>
+        <button className="login-button" type="submit">Kirjaudu sisään</button>
+        <button className="login-button" type="button" onClick={() => toast('Salasana unohtunut? Ota yhteyttä IT-tukeen.')}>Unohditko salasanan?</button>
+        
+        </div>
+        
         <ReCAPTCHA
           sitekey="6LcRonQrAAAAAE_mRu5vdf-Ot9-18Iw8fzvJUYb4"
           onChange={handleRecaptcha}
         />
       </form>
     </div>
+    </div>
     </>
   );
+
 };
 
 export default Login;

@@ -34,11 +34,49 @@ const Admin = () => {
   return (
     <div className="admin-container">
       <h1>Hallintapaneeli</h1>
+      <div className="div-metal-plate" style={{ maxWidth: '900px', margin: '10px auto', position: 'relative' }}>
+      
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
       <Kokouslista kokoukset={kokoukset} fetchKokoukset={fetchKokoukset}/>
+      </div>
+
+      <div className="div-metal-plate" style={{ maxWidth: '900px', margin: '10px auto', position: 'relative' }}>
+      
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
       <Tapahtumalista tapahtumat={tapahtumat} fetchTapahtumat={fetchTapahtumat} />
+      </div>
+
+      <div className="div-metal-plate" style={{ maxWidth: '900px', margin: '10px auto', position: 'relative' }}>
+      
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
       <Kokouslomake fetchKokoukset={fetchKokoukset} />
+      </div>
+
+      <div className="div-metal-plate" style={{ maxWidth: '900px', margin: '10px auto', position: 'relative' }}>
+      
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
       <Tapahtumalomake fetchTapahtumat={fetchTapahtumat} />
+      </div>
+
+      <div className="div-metal-plate" style={{ maxWidth: '900px', margin: '10px auto', position: 'relative' }}>
+        <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
       <Hallituslomake />
+      </div>
       <button onClick={handleLogout} style={{ marginTop: "2em" }}>Kirjaudu ulos</button>
     </div>
   );

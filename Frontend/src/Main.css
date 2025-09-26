@@ -250,15 +250,15 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
 }
 
 .form-group {
-  background-color: darkslateblue;
+  background-color: #129490;
   padding: 20px;
   border-radius: 5px;
   width: 300px;
   color: white;
+  border: 2px solid #333;
 }
 
 .admin-container {
@@ -270,13 +270,17 @@ footer {
 }
 
 .login-button {
-  background-color: darkslateblue;
+  background-color: #129490;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-align: right;
+  margin: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  width: 200px;
+  text-align: center;
 }
 
 .admin-container {
@@ -313,4 +317,26 @@ footer {
   align-items: center;
   justify-content: center;
   min-height: 40vh;
+}
+
+.login-button {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+
+.Spacer {
+  height: 20px;
+  width: 100%;
 }
