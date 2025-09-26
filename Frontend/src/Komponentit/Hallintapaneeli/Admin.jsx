@@ -77,7 +77,7 @@ const Admin = () => {
             <div className="pin pin-br"></div>
       <Hallituslomake />
       </div>
-      <button onClick={handleLogout} style={{ marginTop: "2em" }}>Kirjaudu ulos</button>
+      <button className="login-button" onClick={handleLogout} style={{ marginTop: "2em" }}>Kirjaudu ulos</button>
     </div>
   );
 };

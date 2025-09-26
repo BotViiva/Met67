@@ -53,7 +53,7 @@ const Tapahtumalomake = ({fetchTapahtumat}) => {
   };
 
   return (
-    <form className="Tapahtumalomake" onSubmit={handleSubmit} encType="multipart/form-data">
+    <form className="event-form" onSubmit={handleSubmit} encType="multipart/form-data">
       <h2>Lisää uusi tapahtuma</h2>
       <label>
         Otsikko:
@@ -102,7 +102,7 @@ const Tapahtumalomake = ({fetchTapahtumat}) => {
           onChange={handleFileChange}
         />
       </label>
-      <button type="submit">Lisää tapahtuma</button>
+      <button className="login-button" type="submit">Lisää tapahtuma</button>
       {msg && <div className="info">{msg}</div>}
     </form>
   );

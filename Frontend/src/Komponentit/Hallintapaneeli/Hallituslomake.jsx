@@ -87,6 +87,7 @@ const Hallituslomake = () => {
             required
           />
           <select
+            
             value={jäsen.titteli}
             onChange={e => handleChange(idx, "titteli", e.target.value)}
             required>
@@ -117,8 +118,8 @@ const Hallituslomake = () => {
       {message && <div className="info"style={{ textAlign: "center" }}>{message}</div>}
       <div className="hallitus-actions">
       <button type="button" onClick={addMember}>Lisää jäsen</button>
-      <button type="submit">Tallenna uusi hallitus</button>
-      <button type="button" onClick={handleClear} >Tyhjennä hallitus</button>
+      <button type="submit">Tallenna</button>
+      <button type="button" onClick={handleClear} >Tyhjennä tiedot</button>
       </div>
     </form>
   );

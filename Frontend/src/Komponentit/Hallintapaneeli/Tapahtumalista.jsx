@@ -22,7 +22,7 @@ const Tapahtumalista = ({tapahtumat, fetchTapahtumat}) => {
     <div>
       <h3>Tulevat tapahtumat</h3>
       {tapahtumat.length === 0 && <p>Ei tulevia tapahtumia.</p>}
-      <ul>
+      <ul style={{ listStyleType: "none", padding: 0 }}>
         {tapahtumat.map(t => (
           <li key={t.id}>
             {t.otsikko} – {new Date(t.aika).toLocaleDateString("fi-FI")} – {t.paikka}

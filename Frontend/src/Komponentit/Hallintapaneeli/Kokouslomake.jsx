@@ -40,7 +40,7 @@ const Kokouslomake = (fetchKokoukset) => {
   };
 
   return (
-    <form className="Kokouslomake" onSubmit={handleKokousSubmit}>
+    <form className="meeting-form" onSubmit={handleKokousSubmit}>
       <h2>Lisää tuleva kokous</h2>
       <label>
         Tyyppi:
@@ -72,7 +72,7 @@ const Kokouslomake = (fetchKokoukset) => {
           required
         />
       </label>
-      <button type="submit">Lisää kokous</button>
+      <button className="login-button" type="submit">Lisää kokous</button>
       {kokousMsg && <div className="info">{kokousMsg}</div>}
     </form>
   );

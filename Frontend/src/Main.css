@@ -245,6 +245,75 @@ footer {
 
 */
 
+
+
+.event-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: black; 
+}
+
+.event-form label {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+  font-weight: bold;
+  color: black;
+}
+
+.meeting-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: black; 
+}
+
+.meeting-form label {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+  font-weight: bold;
+  color: black;
+}
+
+.meeting-form select,
+.meeting-form textarea,
+.meeting-form input[type="text"],
+.meeting-form input[type="datetime-local"],
+.meeting-form input[type="file"] {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.event-form textarea,
+.event-form input[type="date"],
+.event-form input[type="text"],
+.event-form input[type="datetime-local"],
+.event-form input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 .login-container {
   display: flex;
   flex-direction: column;
@@ -281,6 +350,7 @@ footer {
   transition: background-color 0.3s, color 0.3s;
   width: 200px;
   text-align: center;
+  text-emphasis: bold;
 }
 
 .admin-container {
@@ -292,7 +362,18 @@ footer {
 }
 
 .hallitus-member-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f3f7fe;
+  box-sizing: border-box;
+  color: black;
   margin-bottom: 10px;
+  
 }
 
 .hallitus-actions {
@@ -301,6 +382,18 @@ footer {
   align-items: center;
   margin-top: 20px;
   justify-content: center;
+}
+
+.hallitus-actions button {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+  margin: 0 10px;
 }
 
 .Kokouslomake {

@@ -19,11 +19,11 @@ const Kokouslista = ({ kokoukset, fetchKokoukset }) => {
     <div>
       <h3>Tulevat kokoukset</h3>
       {kokoukset.length === 0 && <p>Ei tulevia kokouksia.</p>}
-      <ul>
+      <ul style={{ listStyleType: "none", padding: 0 }}>
         {kokoukset.map(k => (
           <li key={k.id}>
             {k.tyyppi} – {new Date(k.aika).toLocaleString("fi-FI")} – {k.paikka}
-            <button onClick={() => poistaKokous(k.id)}>Poista</button>
+            <button style={{borderRadius:"8px"}} onClick={() => poistaKokous(k.id)}>Poista</button>
           </li>
         ))}
       </ul>

@@ -26,17 +26,14 @@ root.render(
           <Route path='/mokki' element={<Mökki />} />
           <Route path="/login" element={<Login /> } />
           <Route path='/tapahtumat' element={<Tapahtumat />} />
-          <Route
-    path="/admin"
-    element={
-      <ProtectedRoute>
-        <Admin />
-      </ProtectedRoute>
-    }
-  />
+          <Route path="/admin" element={
+            <ProtectedRoute>
+              <Admin />
+            </ProtectedRoute>
+            }/>
         </Routes>
     </Router>
     <ToastContainer />
-      <Footer />
+    <Footer />
   </React.StrictMode>,
 );

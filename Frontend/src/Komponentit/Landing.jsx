@@ -61,7 +61,11 @@ const Landing = () => {
             )}
           </section>
         </MetalPlatesContainer>
-        <div className="info-box">
+        <div className="div-metal-plate">
+            <div className="pin pin-tl"></div>
+            <div className="pin pin-tr"></div>
+            <div className="pin pin-bl"></div>
+            <div className="pin pin-br"></div>
           <p>
             Ammattiosaston toiminnan tarkoitus on jäsenistön yhteistyön avulla
             parantaa ja puolustaa työ- ja palkkaehtoja, taloudellisia
