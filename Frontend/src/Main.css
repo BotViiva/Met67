@@ -75,7 +75,6 @@ footer {
   border-radius: 5px;
 }
 
-/* Pienillä näytöillä */
 @media (max-width: 900px) {
   .div-metal-plate .image-gallery {
     max-width: 90%;
@@ -161,91 +160,6 @@ footer {
   margin-left: 50px;
   margin-right: 50px;
 }
-  
-  /*
-.Item {
-  flex-grow: 2;
-  flex-shrink: 2;
-  min-width: 400px;
-  background-color: darkslateblue;
-  border-radius: 5px;
-  padding: 3px;
-  margin: 20px
-}
-
-
-.Hallitus {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.Jäsenkirje {
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  padding: 20px;
-  background-color: darkslateblue;
-  border-radius: 5px;
-}
-
-.Jäsenkirje h2 {
-  text-align: center;
-  margin: 10px;
-}
-
-.Keskitetty {
-  text-align: center;
-}
-
-.Omavastuu {
-  font-weight: bold;
-  color: black;
-  margin-bottom: 20vh;
-}
-
-.Henkilöt {
-  background: white;
-  color: black;
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 0rem;
-  flex-wrap: wrap;
-  border-radius: 5px;
-}
-
-.HenkilötBox {
-  padding: 1%;
-}
-
-
-
-.Bold {
-  font-weight: bold;
-  color: black;
-}
-
-.Mökkidiv {
-  max-width: 70%;
-  border-radius: 5px;
-  background-color:lightblue;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  padding: 10px;
-  color: black;
-}
-
-
-*/
-
-
 
 .event-form {
   display: flex;

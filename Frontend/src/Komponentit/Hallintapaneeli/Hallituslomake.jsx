@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 
 const Hallituslomake = () => {
   const [hallitus, setHallitus] = useState([
-    { nimi: "", titteli: "", puhelinnumero: "", sähköposti: "" }
+    { nimi: "", titteli: "Jäsen", puhelinnumero: "", sähköposti: "" }
   ]);
   const [message, setMessage] = useState("");
 
@@ -21,7 +21,7 @@ const Hallituslomake = () => {
   }, []);
 
   const addMember = () => {
-    setHallitus([...hallitus, { nimi: "", titteli: "", puhelinnumero: "", sähköposti: "" }]);
+    setHallitus([...hallitus, { nimi: "", titteli: "Jäsen", puhelinnumero: "", sähköposti: "" }]);
   };
 
   const handleChange = (idx, field, value) => {
