@@ -1,4 +1,4 @@
-import logo from '../Kuvat/Logo.png';
+import logo from '../Kuvat/logo.png';
 
 const Header = () => {
   return (

@@ -24,10 +24,10 @@ const upload = multer({ storage });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-app.use(cors());
-app.use(express.json());
+app.use(cors()); 
+app.use(express.json()); 
 app.use('/uploads', express.static('uploads')); // Palvelin staattiset tiedostot 'uploads' kansiosta
-const JWT_SECRET = process.env.JWT_SECRET; // Vaihda tämä vahvaan salaisuuteen
+const JWT_SECRET = process.env.JWT_SECRET; // Varmista, että tämä on asetettu .env-tiedostossa
 
 // Luo MySQL-yhteys
 const db = await mysql.createConnection({
