@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Build outputs
+Frontend/dist/
+dist/
+build/
+
+# Docker / runtime
+mysql-data/
+docker-compose.override.yml
+
+# Environment files
+*.env
+Backend/.env
+Frontend/.env
+
+# Uploads and certificates
+Backend/uploads/
+uploads/
+*.pem
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Logs
+*.log

@@ -1,2 +1,5 @@
 .env
 node_modules/
+metalli67dump.sql
+docker-compose.yaml
+mysql-data/

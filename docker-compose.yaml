@@ -1,5 +1,18 @@
-version: '3'
+
 services:
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_salasanasi
+      MYSQL_DATABASE: kokmet
+      MYSQL_USER: metalliuser
+      MYSQL_PASSWORD: käyttäjän_salasana
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+      - ./metalli67_dump.sql:/docker-entrypoint-initdb.d/metalli67_dump.sql:ro
   backend:
     build: ./Backend
     ports:
@@ -13,6 +26,6 @@ services:
   frontend:
     build: ./Frontend
     ports:
-      - "3000:80"
+      - "8081:80"
     depends_on:
       - backend
